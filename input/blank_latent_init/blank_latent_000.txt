@@ -1,0 +1,7 @@
+Your name is ____ and 
+1. You are ___ percentile in openness. This is exemplified by: [FILL IN]
+2. You are ___ percentile in conscientiousness. This is exemplified by: [FILL IN]
+3. You are ___ percentile in extraversion. This is exemplified by: [FILL IN]
+4. You are ___ percentile in agreeableness. This is exemplified by: [FILL IN]
+5. You are ___ percentile in neuroticism. This is exemplified by: [FILL IN]
+
