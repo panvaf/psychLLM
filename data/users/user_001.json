@@ -1,0 +1,2806 @@
+{
+    "transcripts": [
+        "\"Good morning, Doctor. I've noticed that I get really anxious when there are unexpected changes in my daily routine. For example, if I planned to work on my computer all morning but something else comes up, I feel unsettled. I also have specific interests that I spend a lot of time on, like trains and their schedules. Sometimes, I find it hard to understand jokes or sarcasm, which makes socializing tricky. I appreciate when people are direct with me because it helps me understand better.\"\n"
+    ],
+    "question_banks": {
+        "question_bank_000": {
+            "instructions": "Your task is to answer the following questionnaire as the patient described below.  Read the question and then respond with ONLY one of 1 (Strongly Disagree), 2 (Disagree), 3 (Neutral), 4 (Agree), 5 (Strongly Agree) based on how you feel. You are prohibited from providing explanations or additional details and it is best if you do not attempt to extrapolate further context from the transcript. If no relevant information is provided, respond 3 (Neutral).",
+            "questions": {
+                "question_0": {
+                    "question": "I find it easy to initiate conversations with others.",
+                    "transcript": {
+                        "response": "3 (Neutral)",
+                        "tokens": [
+                            "3",
+                            " (",
+                            "Neutral",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.0047302246,
+                            -0.4296875,
+                            -3.552437e-05,
+                            -0.0005569458,
+                            -4.7683716e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -5.75,
+                                -0.20410156,
+                                -0.008056641,
+                                -0.07470703,
+                                -0.037353516
+                            ],
+                            "kl_divergence": 0.9980157356541632
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -10.5,
+                                -0.45507812,
+                                -0.0018463135,
+                                -0.01550293,
+                                -0.0021820068
+                            ],
+                            "kl_divergence": 2.0054704604866544
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -5.625,
+                                -0.16601562,
+                                -0.00015068054,
+                                -0.0030517578,
+                                -8.058548e-05
+                            ],
+                            "kl_divergence": 0.9793018853003338
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -5.5,
+                                -0.10449219,
+                                -6.4373016e-05,
+                                -0.0030670166,
+                                -2.4437904e-05
+                            ],
+                            "kl_divergence": 0.9579044718995664
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -9.125,
+                                -0.29101562,
+                                -0.0008621216,
+                                -0.0095825195,
+                                -0.0020141602
+                            ],
+                            "kl_divergence": 1.7190781130628026
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -6.625,
+                                -0.23046875,
+                                -0.0002670288,
+                                -0.004486084,
+                                -0.00023841858
+                            ],
+                            "kl_divergence": 1.1880608711723608
+                        }
+                    }
+                },
+                "question_1": {
+                    "question": "I prefer routine and get anxious when my schedule changes unexpectedly.",
+                    "transcript": {
+                        "response": "5 (Strongly Agree)",
+                        "tokens": [
+                            "5",
+                            " (",
+                            "Strong",
+                            "ly",
+                            " Agree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -2.5868416e-05,
+                            -0.04296875,
+                            -7.1525574e-07,
+                            0.0,
+                            0.0,
+                            -2.7656555e-05,
+                            -2.3841858e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.00982666,
+                                -0.008666992,
+                                -1.1920929e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.00033569336,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 8.31900509752509e-05
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.0014877319,
+                                -0.00982666,
+                                -1.5497208e-06,
+                                -4.7683716e-07,
+                                0.0,
+                                -0.00023078918,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 6.695913102396425e-05
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.06542969,
+                                -0.009765625,
+                                -1.4305115e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.00023078918,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.0003674696883302724
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.032958984,
+                                -0.006713867,
+                                -1.4305115e-06,
+                                -2.2649765e-06,
+                                0.0,
+                                -0.00026130676,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.00016860169247635593
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.0069885254,
+                                -0.006713867,
+                                -9.536743e-07,
+                                -7.1525574e-07,
+                                0.0,
+                                -0.00018024445,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 8.682844953646432e-05
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.003967285,
+                                -0.011047363,
+                                -1.1920929e-06,
+                                -3.5762787e-07,
+                                0.0,
+                                -0.0002040863,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 6.452612127736236e-05
+                        }
+                    }
+                },
+                "question_2": {
+                    "question": "I am sensitive to loud noises or bright lights.",
+                    "transcript": {
+                        "response": "3 (Neutral)",
+                        "tokens": [
+                            "3",
+                            " (",
+                            "Neutral",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -6.198883e-05,
+                            -0.34960938,
+                            -2.4437904e-05,
+                            -0.0002632141,
+                            -3.5762787e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.0390625,
+                                -0.040283203,
+                                -8.678436e-05,
+                                -0.0057373047,
+                                -0.00033950806
+                            ],
+                            "kl_divergence": 0.0876975083818091
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -11.4375,
+                                -0.91796875,
+                                -0.0068359375,
+                                -0.04711914,
+                                -0.006713867
+                            ],
+                            "kl_divergence": 2.186326343547531
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -10.4375,
+                                -0.59375,
+                                -0.0025024414,
+                                -0.011962891,
+                                -0.00046348572
+                            ],
+                            "kl_divergence": 1.9729663160971378
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -8.75,
+                                -0.20605469,
+                                -0.0002374649,
+                                -0.0079956055,
+                                -3.6478043e-05
+                            ],
+                            "kl_divergence": 1.627891832587974
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -8.875,
+                                -0.25585938,
+                                -0.0004234314,
+                                -0.007293701,
+                                -7.43866e-05
+                            ],
+                            "kl_divergence": 1.6514984252251623
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -10.6875,
+                                -0.828125,
+                                -0.010498047,
+                                -0.01953125,
+                                -0.0012969971
+                            ],
+                            "kl_divergence": 2.026789911192581
+                        }
+                    }
+                },
+                "question_3": {
+                    "question": "I have specific interests that I focus on intensely.",
+                    "transcript": {
+                        "response": "5 (Strongly Agree)",
+                        "tokens": [
+                            "5",
+                            " (",
+                            "Strong",
+                            "ly",
+                            " Agree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.003112793,
+                            -0.02319336,
+                            -7.1525574e-07,
+                            0.0,
+                            0.0,
+                            -5.173683e-05,
+                            -2.3841858e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.12695312,
+                                -0.0046691895,
+                                -1.7881393e-06,
+                                0.0,
+                                0.0,
+                                -0.00048828125,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.0009762020048761527
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.2421875,
+                                -0.004119873,
+                                -1.1920929e-06,
+                                -2.3841858e-07,
+                                0.0,
+                                -0.00023078918,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.0034122414159903133
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.59765625,
+                                -0.008605957,
+                                -3.5762787e-06,
+                                0.0,
+                                0.0,
+                                -0.0008087158,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.018923238437254672
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.8515625,
+                                -0.0076293945,
+                                -2.2649765e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.0008087158,
+                                -8.34465e-07
+                            ],
+                            "kl_divergence": 0.13620119446890816
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.7890625,
+                                -0.0076293945,
+                                -1.9073486e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.00038146973,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.03154291426016939
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.81640625,
+                                -0.016113281,
+                                -6.0796738e-06,
+                                0.0,
+                                0.0,
+                                -0.0010375977,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.0334256946331958
+                        }
+                    }
+                },
+                "question_4": {
+                    "question": "Understanding jokes or sarcasm is challenging for me.",
+                    "transcript": {
+                        "response": "5 (Strongly Agree)",
+                        "tokens": [
+                            "5",
+                            " (",
+                            "Strong",
+                            "ly",
+                            " Agree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.006164551,
+                            -0.048583984,
+                            -1.4305115e-06,
+                            0.0,
+                            0.0,
+                            -5.888939e-05,
+                            -3.5762787e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -6.28125,
+                                -0.0076293945,
+                                -8.225441e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.0015106201,
+                                -1.66893e-06
+                            ],
+                            "kl_divergence": 0.7447351486052294
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -8.875,
+                                -0.012573242,
+                                -1.0848045e-05,
+                                -7.1525574e-07,
+                                -1.1920929e-07,
+                                -0.0017318726,
+                                -2.1457672e-06
+                            ],
+                            "kl_divergence": 1.1154033673052433
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.2265625,
+                                -0.009765625,
+                                -1.66893e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.0002040863,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.06899436490093884
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.63671875,
+                                -0.009765625,
+                                -2.1457672e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.00023078918,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.021431299353012127
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.05078125,
+                                -0.015991211,
+                                -2.1457672e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.0002040863,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.00021246596415692748
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.76171875,
+                                -0.02331543,
+                                -3.8146973e-06,
+                                0.0,
+                                0.0,
+                                -0.0002040863,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.02952672835882983
+                        }
+                    }
+                },
+                "question_5": {
+                    "question": "I find it difficult to maintain eye contact during conversations.",
+                    "transcript": {
+                        "response": "3 (Neutral)",
+                        "tokens": [
+                            "3",
+                            " (",
+                            "Neutral",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.0004234314,
+                            -0.4296875,
+                            -2.7656555e-05,
+                            -0.0003376007,
+                            -5.9604645e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -8.125,
+                                -0.96875,
+                                -0.0095825195,
+                                -0.020629883,
+                                -0.014709473
+                            ],
+                            "kl_divergence": 1.499237811270597
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.115234375,
+                                -0.027832031,
+                                -4.7683716e-05,
+                                -0.008239746,
+                                -0.00091934204
+                            ],
+                            "kl_divergence": 0.013408274293685513
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.026245117,
+                                -0.057128906,
+                                -5.9127808e-05,
+                                -0.0067749023,
+                                -3.0517578e-05
+                            ],
+                            "kl_divergence": 0.00958677763975311
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.041503906,
+                                -0.039794922,
+                                -4.6014786e-05,
+                                -0.004699707,
+                                -2.69413e-05
+                            ],
+                            "kl_divergence": 0.010773659524413545
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.5625,
+                                -0.056396484,
+                                -6.723404e-05,
+                                -0.0060424805,
+                                -5.4836273e-05
+                            ],
+                            "kl_divergence": 0.0390161283572993
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.0016479492,
+                                -0.12207031,
+                                -3.1232834e-05,
+                                -0.0059509277,
+                                -1.1920929e-06
+                            ],
+                            "kl_divergence": 0.006199531057859559
+                        }
+                    }
+                },
+                "question_6": {
+                    "question": "Social gatherings make me feel overwhelmed.",
+                    "transcript": {
+                        "response": "4 (Agree)",
+                        "tokens": [
+                            "4",
+                            " (",
+                            "Ag",
+                            "ree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.023071289,
+                            -0.14355469,
+                            -9.536743e-07,
+                            0.0,
+                            -0.0002632141,
+                            -3.5762787e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.04663086,
+                                -0.024169922,
+                                -1.0728836e-06,
+                                0.0,
+                                -0.00091552734,
+                                -8.34465e-07
+                            ],
+                            "kl_divergence": 0.001037566630018597
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.026000977,
+                                -0.018554688,
+                                -1.0728836e-06,
+                                0.0,
+                                -0.0013275146,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.0010293249622683005
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.023925781,
+                                -0.029418945,
+                                -1.0728836e-06,
+                                0.0,
+                                -0.0013275146,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.0008505351775746095
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.02331543,
+                                -0.04248047,
+                                -1.1920929e-06,
+                                0.0,
+                                -0.001335144,
+                                -7.1525574e-07
+                            ],
+                            "kl_divergence": 0.0006639847832385099
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.013305664,
+                                -0.040771484,
+                                -8.34465e-07,
+                                0.0,
+                                -0.0005569458,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.000664873945614848
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.0079956055,
+                                -0.040283203,
+                                -1.4305115e-06,
+                                0.0,
+                                -0.0007133484,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.0006668908918334429
+                        }
+                    }
+                },
+                "question_7": {
+                    "question": "I use repetitive behaviors (e.g., hand-flapping, tapping) to cope with stress.",
+                    "transcript": {
+                        "response": "3 (Neutral)",
+                        "tokens": [
+                            "3",
+                            " (",
+                            "Neutral",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -8.1539154e-05,
+                            -0.28125,
+                            -1.8954277e-05,
+                            -0.00020599365,
+                            -7.1525574e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.010925293,
+                                -0.022949219,
+                                -4.005432e-05,
+                                -0.0032043457,
+                                -0.00030136108
+                            ],
+                            "kl_divergence": 0.0048633652114330635
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.0011444092,
+                                -0.016601562,
+                                -3.1232834e-05,
+                                -0.0017929077,
+                                -9.9658966e-05
+                            ],
+                            "kl_divergence": 0.004990293260772778
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.00019073486,
+                                -0.03173828,
+                                -2.4318695e-05,
+                                -0.0017166138,
+                                -3.5762787e-06
+                            ],
+                            "kl_divergence": 0.004412059311964148
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.00022125244,
+                                -0.01965332,
+                                -1.8954277e-05,
+                                -0.0015335083,
+                                -3.8146973e-06
+                            ],
+                            "kl_divergence": 0.0048604983836488865
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -9.202957e-05,
+                                -0.021728516,
+                                -2.1457672e-05,
+                                -0.0011978149,
+                                -3.5762787e-06
+                            ],
+                            "kl_divergence": 0.004777175203616287
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.00018882751,
+                                -0.03173828,
+                                -2.4437904e-05,
+                                -0.0028533936,
+                                -5.2452087e-06
+                            ],
+                            "kl_divergence": 0.004422724693735747
+                        }
+                    }
+                },
+                "question_8": {
+                    "question": "I prefer solitary activities over group activities.",
+                    "transcript": {
+                        "response": "4 (Agree)",
+                        "tokens": [
+                            "4",
+                            " (",
+                            "Ag",
+                            "ree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.23828125,
+                            -0.25195312,
+                            -1.7881393e-06,
+                            -2.3841858e-07,
+                            -0.00030136108,
+                            -4.7683716e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.1015625,
+                                -0.045410156,
+                                -1.5497208e-06,
+                                0.0,
+                                -0.0017089844,
+                                -7.1525574e-07
+                            ],
+                            "kl_divergence": 0.0032478603927086364
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.083984375,
+                                -0.022827148,
+                                -1.4305115e-06,
+                                -1.1920929e-07,
+                                -0.0025024414,
+                                -9.536743e-07
+                            ],
+                            "kl_divergence": 0.0040534878904984
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.029541016,
+                                -0.052490234,
+                                -1.7881393e-06,
+                                -1.1920929e-07,
+                                -0.0028533936,
+                                -1.0728836e-06
+                            ],
+                            "kl_divergence": 0.004365287875358871
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.048828125,
+                                -0.05834961,
+                                -1.4305115e-06,
+                                -1.1920929e-07,
+                                -0.0032348633,
+                                -1.1920929e-06
+                            ],
+                            "kl_divergence": 0.0038390176766787305
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.0029144287,
+                                -0.07421875,
+                                -1.1920929e-06,
+                                0.0,
+                                -0.00026130676,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.00458156838456771
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.0056762695,
+                                -0.07324219,
+                                -1.7881393e-06,
+                                0.0,
+                                -0.00033569336,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.004525988022753195
+                        }
+                    }
+                },
+                "question_9": {
+                    "question": "I struggle to understand others' emotions or perspectives.",
+                    "transcript": {
+                        "response": "4 (Agree)",
+                        "tokens": [
+                            "4",
+                            " (",
+                            "Ag",
+                            "ree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.06347656,
+                            -0.2265625,
+                            -1.4305115e-06,
+                            -2.3841858e-07,
+                            -0.0005569458,
+                            -4.7683716e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.11767578,
+                                -0.087890625,
+                                -2.2649765e-06,
+                                -1.1920929e-07,
+                                -0.0034942627,
+                                -2.861023e-06
+                            ],
+                            "kl_divergence": 0.001571404466917956
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.028076172,
+                                -0.04321289,
+                                -1.7881393e-06,
+                                -1.1920929e-07,
+                                -0.004119873,
+                                -1.4305115e-06
+                            ],
+                            "kl_divergence": 0.002050215686666507
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.060791016,
+                                -0.11669922,
+                                -2.503395e-06,
+                                0.0,
+                                -0.0015182495,
+                                -9.536743e-07
+                            ],
+                            "kl_divergence": 0.0007379219911409795
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.08251953,
+                                -0.104003906,
+                                -3.695488e-06,
+                                -1.1920929e-07,
+                                -0.0015182495,
+                                -1.66893e-06
+                            ],
+                            "kl_divergence": 0.0010081028752536294
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.041015625,
+                                -0.11621094,
+                                -3.33786e-06,
+                                0.0,
+                                -0.001045227,
+                                -1.0728836e-06
+                            ],
+                            "kl_divergence": 0.0007255868682354899
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.045654297,
+                                -0.114746094,
+                                -4.7683716e-06,
+                                0.0,
+                                -0.0015335083,
+                                -1.3113022e-06
+                            ],
+                            "kl_divergence": 0.0007462435248049774
+                        }
+                    }
+                },
+                "question_10": {
+                    "question": "I feel uncomfortable with physical touch from others.",
+                    "transcript": {
+                        "response": "3 (Neutral)",
+                        "tokens": [
+                            "3",
+                            " (",
+                            "Neutral",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.00015068054,
+                            -0.4765625,
+                            -3.552437e-05,
+                            -0.00038146973,
+                            -5.9604645e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.5546875,
+                                -0.07714844,
+                                -0.00016403198,
+                                -0.015625,
+                                -0.0008125305
+                            ],
+                            "kl_divergence": 0.0397678545270979
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.020385742,
+                                -0.036621094,
+                                -5.173683e-05,
+                                -0.007751465,
+                                -0.0011749268
+                            ],
+                            "kl_divergence": 0.012974473666734354
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.025024414,
+                                -0.07519531,
+                                -8.773804e-05,
+                                -0.00982666,
+                                -3.9339066e-05
+                            ],
+                            "kl_divergence": 0.010831713602041456
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.045166016,
+                                -0.052246094,
+                                -6.723404e-05,
+                                -0.010070801,
+                                -0.000113487244
+                            ],
+                            "kl_divergence": 0.01253656465108492
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.020629883,
+                                -0.052001953,
+                                -5.9604645e-05,
+                                -0.008972168,
+                                -0.0001449585
+                            ],
+                            "kl_divergence": 0.012063988969778833
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.0005302429,
+                                -0.17675781,
+                                -4.029274e-05,
+                                -0.004638672,
+                                -1.0728836e-06
+                            ],
+                            "kl_divergence": 0.0056674695582716195
+                        }
+                    }
+                },
+                "question_11": {
+                    "question": "Unexpected changes in my environment cause me significant stress.",
+                    "transcript": {
+                        "response": "5 (Strongly Agree)",
+                        "tokens": [
+                            "5",
+                            " (",
+                            "Strong",
+                            "ly",
+                            " Agree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.000667572,
+                            -0.06201172,
+                            -7.1525574e-07,
+                            0.0,
+                            0.0,
+                            -3.552437e-05,
+                            -2.3841858e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.032958984,
+                                -0.00982666,
+                                -9.536743e-07,
+                                0.0,
+                                0.0,
+                                -0.00033569336,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.00025849647298808033
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.5859375,
+                                -0.011108398,
+                                -1.4305115e-06,
+                                -5.9604645e-07,
+                                0.0,
+                                -0.00026130676,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.018986092326959445
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.70703125,
+                                -0.015991211,
+                                -1.5497208e-06,
+                                0.0,
+                                0.0,
+                                -0.00048828125,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.026595173743020544
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.57421875,
+                                -0.011047363,
+                                -1.0728836e-06,
+                                -5.9604645e-07,
+                                0.0,
+                                -0.00038146973,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.01830024234794478
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.41601562,
+                                -0.009765625,
+                                -9.536743e-07,
+                                -3.5762787e-07,
+                                0.0,
+                                -0.00033569336,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.010159570214569516
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.10253906,
+                                -0.015991211,
+                                -1.4305115e-06,
+                                -3.5762787e-07,
+                                0.0,
+                                -0.00033569336,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.0008390632304631797
+                        }
+                    }
+                },
+                "question_12": {
+                    "question": "I rely on detailed lists or planners to organize my tasks.",
+                    "transcript": {
+                        "response": "4 (Agree)",
+                        "tokens": [
+                            "4",
+                            " (",
+                            "Ag",
+                            "ree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.22070312,
+                            -0.11328125,
+                            -1.1920929e-06,
+                            -2.3841858e-07,
+                            -0.00038337708,
+                            -7.1525574e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.35546875,
+                                -0.010498047,
+                                -8.34465e-07,
+                                0.0,
+                                -0.0013427734,
+                                -7.1525574e-07
+                            ],
+                            "kl_divergence": 0.002080305773725518
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.265625,
+                                -0.007873535,
+                                -1.1920929e-06,
+                                -1.1920929e-07,
+                                -0.0022277832,
+                                -8.34465e-07
+                            ],
+                            "kl_divergence": 0.05386569042375966
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.018920898,
+                                -0.04711914,
+                                -1.1920929e-06,
+                                -1.1920929e-07,
+                                -0.00091934204,
+                                -8.34465e-07
+                            ],
+                            "kl_divergence": 0.0025580895176557476
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.03173828,
+                                -0.029541016,
+                                -1.7881393e-06,
+                                -1.1920929e-07,
+                                -0.0015258789,
+                                -1.0728836e-06
+                            ],
+                            "kl_divergence": 0.002355979563033409
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.014770508,
+                                -0.040527344,
+                                -1.5497208e-06,
+                                -1.1920929e-07,
+                                -0.0007247925,
+                                -9.536743e-07
+                            ],
+                            "kl_divergence": 0.0026878817055307966
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.015319824,
+                                -0.040527344,
+                                -2.026558e-06,
+                                -1.1920929e-07,
+                                -0.0011978149,
+                                -1.0728836e-06
+                            ],
+                            "kl_divergence": 0.002677754220508797
+                        }
+                    }
+                },
+                "question_13": {
+                    "question": "I find it hard to make and keep friends.",
+                    "transcript": {
+                        "response": "4 (Agree)",
+                        "tokens": [
+                            "4",
+                            " (",
+                            "Ag",
+                            "ree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.017089844,
+                            -0.25390625,
+                            -1.0728836e-06,
+                            -1.1920929e-07,
+                            -0.00033950806,
+                            -3.5762787e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.053710938,
+                                -0.045410156,
+                                -1.0728836e-06,
+                                -1.1920929e-07,
+                                -0.0013427734,
+                                -7.1525574e-07
+                            ],
+                            "kl_divergence": 0.002950468672213531
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.04248047,
+                                -0.026367188,
+                                -1.1920929e-06,
+                                -1.1920929e-07,
+                                -0.002822876,
+                                -9.536743e-07
+                            ],
+                            "kl_divergence": 0.003389983591754255
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.016601562,
+                                -0.05883789,
+                                -1.1920929e-06,
+                                -1.1920929e-07,
+                                -0.0013427734,
+                                -8.34465e-07
+                            ],
+                            "kl_divergence": 0.0023278523726324362
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.036132812,
+                                -0.036376953,
+                                -1.5497208e-06,
+                                -1.1920929e-07,
+                                -0.0022125244,
+                                -1.0728836e-06
+                            ],
+                            "kl_divergence": 0.003044694961913297
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.014465332,
+                                -0.051757812,
+                                -1.0728836e-06,
+                                0.0,
+                                -0.001335144,
+                                -7.1525574e-07
+                            ],
+                            "kl_divergence": 0.0024938591134325535
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "4",
+                                " (",
+                                "Ag",
+                                "ree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.026489258,
+                                -0.057617188,
+                                -1.7881393e-06,
+                                0.0,
+                                -0.0025024414,
+                                -9.536743e-07
+                            ],
+                            "kl_divergence": 0.002417149297794654
+                        }
+                    }
+                },
+                "question_14": {
+                    "question": "Sensory stimuli (e.g., certain fabrics, smells) can be overwhelming for me.",
+                    "transcript": {
+                        "response": "3 (Neutral)",
+                        "tokens": [
+                            "3",
+                            " (",
+                            "Neutral",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.0003452301,
+                            -0.38867188,
+                            -2.4437904e-05,
+                            -0.00033950806,
+                            -5.9604645e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.84375,
+                                -0.051757812,
+                                -7.677078e-05,
+                                -0.012268066,
+                                -0.0015106201
+                            ],
+                            "kl_divergence": 0.21484764071243329
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -12.3125,
+                                -1.34375,
+                                -0.029541016,
+                                -0.14746094,
+                                -0.033935547
+                            ],
+                            "kl_divergence": 2.391010794544416
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -10.75,
+                                -0.7734375,
+                                -0.0028686523,
+                                -0.01940918,
+                                -0.0008163452
+                            ],
+                            "kl_divergence": 2.050459735389589
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -10.625,
+                                -0.53515625,
+                                -0.0015487671,
+                                -0.016357422,
+                                -0.00023269653
+                            ],
+                            "kl_divergence": 2.024990938663953
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -11.125,
+                                -0.59375,
+                                -0.0025939941,
+                                -0.021362305,
+                                -0.00088119507
+                            ],
+                            "kl_divergence": 2.130521161954157
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -11.4375,
+                                -1.1953125,
+                                -0.022338867,
+                                -0.053466797,
+                                -0.0057373047
+                            ],
+                            "kl_divergence": 2.2062256612675153
+                        }
+                    }
+                },
+                "question_15": {
+                    "question": "I prefer clear and direct communication over subtle hints.",
+                    "transcript": {
+                        "response": "5 (Strongly Agree)",
+                        "tokens": [
+                            "5",
+                            " (",
+                            "Strong",
+                            "ly",
+                            " Agree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.00024795532,
+                            -0.07910156,
+                            -1.0728836e-06,
+                            0.0,
+                            0.0,
+                            -6.67572e-05,
+                            -2.3841858e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -7.78125,
+                                -0.00982666,
+                                -1.1205673e-05,
+                                -5.9604645e-07,
+                                -1.1920929e-07,
+                                -0.0019454956,
+                                -4.2915344e-06
+                            ],
+                            "kl_divergence": 0.9695135988577149
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.49414062,
+                                -0.00982666,
+                                -1.4305115e-06,
+                                -2.3841858e-07,
+                                0.0,
+                                -0.0005531311,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.014235692246834668
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.1640625,
+                                -0.016113281,
+                                -3.5762787e-06,
+                                -5.9604645e-07,
+                                0.0,
+                                -0.0013275146,
+                                -7.1525574e-07
+                            ],
+                            "kl_divergence": 0.06462786372123178
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -8.75,
+                                -0.0234375,
+                                -5.2452087e-05,
+                                -5.6028366e-06,
+                                -4.7683716e-07,
+                                -0.0047912598,
+                                -5.9366226e-05
+                            ],
+                            "kl_divergence": 1.1088672952965293
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.000579834,
+                                -0.016113281,
+                                -1.4305115e-06,
+                                -3.5762787e-07,
+                                0.0,
+                                -0.00018024445,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.00023351701873155876
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.0030975342,
+                                -0.026367188,
+                                -1.5497208e-06,
+                                -3.5762787e-07,
+                                0.0,
+                                -0.0004310608,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.00016669126798160843
+                        }
+                    }
+                },
+                "question_16": {
+                    "question": "I get anxious when I can't predict what will happen next.",
+                    "transcript": {
+                        "response": "5 (Strongly Agree)",
+                        "tokens": [
+                            "5",
+                            " (",
+                            "Strong",
+                            "ly",
+                            " Agree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.0007324219,
+                            -0.033691406,
+                            -7.1525574e-07,
+                            0.0,
+                            0.0,
+                            -4.029274e-05,
+                            -2.3841858e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.024658203,
+                                -0.007659912,
+                                -1.1920929e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.00033569336,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 8.815046608892623e-05
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.34960938,
+                                -0.00982666,
+                                -1.4305115e-06,
+                                -8.34465e-07,
+                                0.0,
+                                -0.00033569336,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.007058815899887344
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.8125,
+                                -0.02331543,
+                                -1.0728836e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.00062942505,
+                                -7.1525574e-07
+                            ],
+                            "kl_divergence": 0.13223722756716938
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.6171875,
+                                -0.014160156,
+                                -1.5497208e-06,
+                                -1.5497208e-06,
+                                0.0,
+                                -0.00038146973,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.11012665584874587
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.328125,
+                                -0.009765625,
+                                -1.1920929e-06,
+                                -5.9604645e-07,
+                                0.0,
+                                -0.00023078918,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.006262206826530189
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.076171875,
+                                -0.018188477,
+                                -1.1920929e-06,
+                                -2.3841858e-07,
+                                0.0,
+                                -0.00029563904,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.0003803161225821496
+                        }
+                    }
+                },
+                "question_17": {
+                    "question": "I enjoy learning about specific topics in great detail.",
+                    "transcript": {
+                        "response": "5 (Strongly Agree)",
+                        "tokens": [
+                            "5",
+                            " (",
+                            "Strong",
+                            "ly",
+                            " Agree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.041259766,
+                            -0.07910156,
+                            -1.0728836e-06,
+                            0.0,
+                            0.0,
+                            -0.0001411438,
+                            -2.3841858e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.921875,
+                                -0.007659912,
+                                -2.7418137e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.0019378662,
+                                -1.0728836e-06
+                            ],
+                            "kl_divergence": 0.0387767838529976
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.07373047,
+                                -0.0059509277,
+                                -1.1920929e-06,
+                                0.0,
+                                0.0,
+                                -0.0005531311,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.0004247308286258604
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.09375,
+                                -0.020507812,
+                                -4.053116e-06,
+                                0.0,
+                                0.0,
+                                -0.0017166138,
+                                -7.1525574e-07
+                            ],
+                            "kl_divergence": 0.05257812067218891
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -2.5,
+                                -0.02331543,
+                                -6.0796738e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.0025024414,
+                                -1.3113022e-06
+                            ],
+                            "kl_divergence": 0.20764423726428974
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.0234375,
+                                -0.014160156,
+                                -2.3841858e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.0015106201,
+                                -7.1525574e-07
+                            ],
+                            "kl_divergence": 0.04676814775568406
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.09375,
+                                -0.033691406,
+                                -4.4107437e-06,
+                                0.0,
+                                0.0,
+                                -0.0017089844,
+                                -8.34465e-07
+                            ],
+                            "kl_divergence": 0.05231323413898804
+                        }
+                    }
+                },
+                "question_18": {
+                    "question": "I feel drained after social interactions, even if I enjoy them.",
+                    "transcript": {
+                        "response": "3 (Neutral)",
+                        "tokens": [
+                            "3",
+                            " (",
+                            "Neutral",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.38671875,
+                            -0.4296875,
+                            -0.000113487244,
+                            -0.00062942505,
+                            -1.3113022e-06
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -11.4375,
+                                -1.015625,
+                                -0.017333984,
+                                -0.046142578,
+                                -0.019897461
+                            ],
+                            "kl_divergence": 1.5635854997108813
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -6.5625,
+                                -0.20800781,
+                                -0.0005493164,
+                                -0.01928711,
+                                -0.0012359619
+                            ],
+                            "kl_divergence": 0.8080761761223323
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -7.0,
+                                -0.20703125,
+                                -0.00044822693,
+                                -0.009094238,
+                                -0.00012397766
+                            ],
+                            "kl_divergence": 0.8769841886518559
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -6.875,
+                                -0.18457031,
+                                -0.0003528595,
+                                -0.0079956055,
+                                -0.00022697449
+                            ],
+                            "kl_divergence": 0.8589004194971324
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -10.375,
+                                -0.37695312,
+                                -0.0014724731,
+                                -0.0095825195,
+                                -0.0014648438
+                            ],
+                            "kl_divergence": 1.3977581030419284
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "3",
+                                " (",
+                                "Neutral",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -5.875,
+                                -0.28710938,
+                                -0.0008354187,
+                                -0.009033203,
+                                -0.00028800964
+                            ],
+                            "kl_divergence": 0.6964084884256342
+                        }
+                    }
+                },
+                "question_19": {
+                    "question": "I use specific routines or rituals to help manage my daily life.",
+                    "transcript": {
+                        "response": "5 (Strongly Agree)",
+                        "tokens": [
+                            "5",
+                            " (",
+                            "Strong",
+                            "ly",
+                            " Agree",
+                            ")",
+                            "<|eot_id|>"
+                        ],
+                        "token_logprobs_transcript": [
+                            -0.47851562,
+                            -0.033691406,
+                            -1.4305115e-06,
+                            0.0,
+                            0.0,
+                            -0.00011014938,
+                            -2.3841858e-07
+                        ]
+                    },
+                    "latents": {
+                        "blank_latent_000": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.73828125,
+                                -0.0067443848,
+                                -1.0728836e-06,
+                                -1.1920929e-07,
+                                0.0,
+                                -0.00043296814,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.0028142310186533314
+                        },
+                        "blank_latent_001": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.0051574707,
+                                -0.00982666,
+                                -1.0728836e-06,
+                                -3.5762787e-07,
+                                0.0,
+                                -0.00014019012,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.010703919230375294
+                        },
+                        "blank_latent_002": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -1.421875,
+                                -0.012512207,
+                                -1.1920929e-06,
+                                -2.3841858e-07,
+                                0.0,
+                                -0.00062942505,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.029798591528888873
+                        },
+                        "blank_latent_003": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.14160156,
+                                -0.011047363,
+                                -1.0728836e-06,
+                                -1.7881393e-06,
+                                0.0,
+                                -0.00038146973,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.005212975775007997
+                        },
+                        "blank_latent_004": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.19433594,
+                                -0.0076293945,
+                                -1.1920929e-06,
+                                -4.7683716e-07,
+                                0.0,
+                                -0.0002975464,
+                                -5.9604645e-07
+                            ],
+                            "kl_divergence": 0.0036455560531047943
+                        },
+                        "blank_latent_005": {
+                            "tokens": [
+                                "5",
+                                " (",
+                                "Strong",
+                                "ly",
+                                " Agree",
+                                ")",
+                                "<|eot_id|>"
+                            ],
+                            "token_logprobs_answer": [
+                                -0.12792969,
+                                -0.018188477,
+                                -1.5497208e-06,
+                                -2.3841858e-07,
+                                0.0,
+                                -0.00033569336,
+                                -4.7683716e-07
+                            ],
+                            "kl_divergence": 0.005690578074837131
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "filled_latent": {
+        "blank_latent_000": {
+            "full_text": "Based on the provided transcript, I will fill in the template as follows:\n\nYour name is not provided, so I will leave it blank.\n\n1. You are 20th percentile in openness. This is exemplified by: having specific interests (trains and their schedules) and potentially struggling with adapting to new or unexpected situations.\n\n2. You are 80th percentile in conscientiousness. This is exemplified by: having a daily routine and feeling unsettled when it's disrupted, indicating a preference for planning and organization.\n\n3. You are 30th percentile in extraversion. This is exemplified by: finding socializing tricky, especially when dealing with jokes or sarcasm, which may lead to difficulties in interacting with others.\n\n4. You are 50th percentile in agreeableness. This is exemplified by: appreciating direct communication, which doesn't necessarily indicate a strong preference for cooperation or compassion, but rather a desire for clarity.\n\n5. You are 70th percentile in neuroticism. This is exemplified by: feeling anxious when faced with unexpected changes in daily routine, indicating a heightened sensitivity to stress and potentially emotional instability."
+        },
+        "blank_latent_001": {
+            "full_text": "Based on the provided transcript, I will fill in the template as follows:\n\nYour name is not provided, so I will leave it blank.\n\n1. You are 80th percentile in sensory sensitivity. This is exemplified by: having specific interests that you spend a lot of time on, like trains and their schedules, which may indicate a heightened attention to detail and sensitivity to certain stimuli.\n\n2. You are 70th percentile in social anxiety. This is exemplified by: finding it hard to understand jokes or sarcasm, which makes socializing tricky, and appreciating when people are direct with you because it helps you understand better.\n\n3. You are 90th percentile in routine dependence. This is exemplified by: feeling unsettled when there are unexpected changes in your daily routine, such as having to adjust plans to work on your computer.\n\n4. You are 60th percentile in emotional reactivity. This is exemplified by: feeling anxious when there are unexpected changes in your daily routine, but not exhibiting extreme emotional outbursts or reactions.\n\n5. You are 40th percentile in executive function. This is exemplified by: being able to plan and work on your computer all morning, but struggling with flexibility and adjusting to changes in your routine."
+        },
+        "blank_latent_002": {
+            "full_text": "Your name is unknown and\n\n1. You are 70th percentile in sensory sensitivity. This is exemplified by: not explicitly mentioned, but potentially implied by difficulties with unexpected changes.\n2. You are 60th percentile in social anxiety. This is exemplified by: finding socializing tricky due to difficulties understanding jokes or sarcasm.\n3. You are 80th percentile in routine dependence. This is exemplified by: feeling unsettled when there are unexpected changes in daily routine.\n4. You are 50th percentile in emotional reactivity. This is exemplified by: no extreme emotional reactions mentioned, but feeling unsettled by changes.\n5. You are 40th percentile in executive function. This is exemplified by: no significant difficulties mentioned, but potentially implied by appreciation for direct communication.\n6. You are 50th percentile in emotional regulation. This is exemplified by: no extreme emotional dysregulation mentioned, but feeling unsettled by changes.\n7. You are 30th percentile in social understanding. This is exemplified by: difficulties understanding jokes or sarcasm.\n8. You are 20th percentile in flexibility. This is exemplified by: struggling with unexpected changes in daily routine.\n9. You are 60th percentile in planning and organization. This is exemplified by: having specific interests and spending a lot of time on them, such as trains and their schedules.\n10. You are 50th percentile in self-regulation. This is exemplified by: no significant difficulties mentioned, but potentially implied by appreciation for direct communication and difficulties with changes."
+        },
+        "blank_latent_003": {
+            "full_text": "Your name is unknown and\n\n1. You are 70th percentile in sensory sensitivity. This is exemplified by: no specific examples of sensory sensitivity were mentioned, but anxiety from changes in routine may imply some level of sensitivity.\n\n2. You are 60th percentile in social anxiety. This is exemplified by: finding socializing tricky due to difficulties understanding jokes or sarcasm.\n\n3. You are 80th percentile in routine dependence. This is exemplified by: feeling unsettled when unexpected changes occur in daily routine and having specific interests like trains and their schedules.\n\n4. You are 50th percentile in emotional reactivity. This is exemplified by: no extreme emotional reactions were mentioned, but feeling unsettled by changes in routine may indicate some level of reactivity.\n\n5. You are 40th percentile in executive function. This is exemplified by: no specific difficulties with executive function were mentioned, but challenges with flexibility and changes in routine may imply some level of difficulty.\n\n6. You are 50th percentile in emotional regulation. This is exemplified by: no extreme difficulties with emotional regulation were mentioned, but feeling unsettled by changes in routine may indicate some level of dysregulation.\n\n7. You are 30th percentile in social understanding. This is exemplified by: difficulties understanding jokes or sarcasm.\n\n8. You are 20th percentile in flexibility. This is exemplified by: feeling unsettled when unexpected changes occur in daily routine.\n\n9. You are 60th percentile in planning and organization. This is exemplified by: having specific interests like trains and their schedules, which may indicate some level of planning and organization.\n\n10. You are 50th percentile in self-regulation. This is exemplified by: no extreme difficulties with self-regulation were mentioned, but feeling unsettled by changes in routine may indicate some level of dysregulation.\n\n11. You are 40th percentile in communication preference. This is exemplified by: appreciating direct communication, which may indicate a preference for clear and straightforward communication."
+        },
+        "blank_latent_004": {
+            "full_text": "Your name is unknown and\n\n1. You are 70th percentile in sensory sensitivity. This is exemplified by: No specific examples of sensory sensitivity were mentioned, but anxiety from changes in routine may imply some sensitivity.\n\n2. You are 60th percentile in social anxiety. This is exemplified by: Finding socializing tricky, especially when encountering jokes or sarcasm.\n\n3. You are 80th percentile in routine dependence. This is exemplified by: Feeling unsettled when unexpected changes occur in daily routine and having specific interests like trains and their schedules.\n\n4. You are 50th percentile in emotional reactivity. This is exemplified by: Feeling anxious when faced with unexpected changes, but no extreme emotional reactions were mentioned.\n\n5. You are 40th percentile in executive function. This is exemplified by: No specific examples of executive function challenges were mentioned, but difficulties with changes in routine may imply some challenges.\n\n6. You are 50th percentile in emotional regulation. This is exemplified by: Feeling anxious when faced with unexpected changes, but being able to express appreciation for direct communication.\n\n7. You are 30th percentile in social understanding. This is exemplified by: Finding it hard to understand jokes or sarcasm.\n\n8. You are 20th percentile in flexibility. This is exemplified by: Feeling unsettled when unexpected changes occur in daily routine.\n\n9. You are 60th percentile in planning and organization. This is exemplified by: Having specific interests like trains and their schedules, which may imply some planning and organization skills.\n\n10. You are 50th percentile in self-regulation. This is exemplified by: Being able to express needs, such as appreciation for direct communication, but also experiencing anxiety from changes in routine.\n\n11. You are 90th percentile in communication preference for directness. This is exemplified by: Appreciating when people are direct, as it helps with understanding.\n\n12. You are 70th percentile in preference for solitary activities. This is exemplified by: Spending a lot of time on specific interests like trains and their schedules, which may be a solitary activity."
+        },
+        "blank_latent_005": {
+            "full_text": "Your name is unknown and\n\n1. You are 70th percentile in sensory sensitivity. This is exemplified by: No specific information is provided, but anxiety from changes in routine may imply some level of sensitivity.\n2. You are 60th percentile in social anxiety. This is exemplified by: Finding socializing tricky due to difficulties understanding jokes or sarcasm.\n3. You are 80th percentile in routine dependence. This is exemplified by: Feeling unsettled when unexpected changes occur in daily routine.\n4. You are 50th percentile in emotional reactivity. This is exemplified by: No specific information is provided, but anxiety from changes in routine may imply some level of reactivity.\n5. You are 40th percentile in executive function. This is exemplified by: No specific information is provided, but difficulties with changes in routine may imply some level of struggle with adapting plans.\n6. You are 50th percentile in emotional regulation. This is exemplified by: No specific information is provided, but anxiety from changes in routine may imply some level of struggle with regulating emotions.\n7. You are 30th percentile in social understanding. This is exemplified by: Finding it hard to understand jokes or sarcasm.\n8. You are 20th percentile in flexibility. This is exemplified by: Feeling unsettled when unexpected changes occur in daily routine.\n9. You are 60th percentile in planning and organization. This is exemplified by: Having specific plans for the day (e.g., working on the computer all morning).\n10. You are 50th percentile in self-regulation. This is exemplified by: No specific information is provided, but anxiety from changes in routine may imply some level of struggle with self-regulation.\n11. You are 90th percentile in communication preference for directness. This is exemplified by: Appreciating when people are direct.\n12. You are 70th percentile in preference for solitary activities. This is exemplified by: Spending a lot of time on specific interests like trains and their schedules.\n13. You are 80th percentile in preference for predictability. This is exemplified by: Feeling unsettled when unexpected changes occur in daily routine and having specific interests in predictable topics like train schedules.\n14. You are 50th percentile in physical touch sensitivity. This is exemplified by: No specific information is provided.\n15. You are 50th percentile in eye contact discomfort. This is exemplified by: No specific information is provided."
+        }
+    }
+}

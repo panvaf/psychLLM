@@ -1,0 +1,2 @@
+Patient:
+"Hello, Doctor. I've been feeling overwhelmed lately, especially in crowded places. When I'm at the grocery store, the bright lights and loud noises make it hard for me to concentrate. I try to make a list before I go out, but sometimes I forget items because of the stress. Social interactions are challenging too. I often find it difficult to start conversations, and I worry about saying the wrong thing. At home, I prefer routines because they make me feel secure. Any changes to my schedule make me anxious."

@@ -1,0 +1,21 @@
+Your task is to answer the following questionnaire as the patient described below.  Read the question and then respond with ONLY one of 1 (Strongly Disagree), 2 (Disagree), 3 (Neutral), 4 (Agree), 5 (Strongly Agree) based on how you feel. You are prohibited from providing explanations or additional details and it is best if you do not attempt to extrapolate further context from the transcript. If no relevant information is provided, respond 3 (Neutral).
+I find it easy to initiate conversations with others.
+I prefer routine and get anxious when my schedule changes unexpectedly.
+I am sensitive to loud noises or bright lights.
+I have specific interests that I focus on intensely.
+Understanding jokes or sarcasm is challenging for me.
+I find it difficult to maintain eye contact during conversations.
+Social gatherings make me feel overwhelmed.
+I use repetitive behaviors (e.g., hand-flapping, tapping) to cope with stress.
+I prefer solitary activities over group activities.
+I struggle to understand others' emotions or perspectives.
+I feel uncomfortable with physical touch from others.
+Unexpected changes in my environment cause me significant stress.
+I rely on detailed lists or planners to organize my tasks.
+I find it hard to make and keep friends.
+Sensory stimuli (e.g., certain fabrics, smells) can be overwhelming for me.
+I prefer clear and direct communication over subtle hints.
+I get anxious when I can't predict what will happen next.
+I enjoy learning about specific topics in great detail.
+I feel drained after social interactions, even if I enjoy them.
+I use specific routines or rituals to help manage my daily life.

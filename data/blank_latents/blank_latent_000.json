@@ -1,0 +1,11 @@
+{
+    "full_text": "Your name is ____ and \n1. You are ___ percentile in openness. This is exemplified by: [FILL IN]\n2. You are ___ percentile in conscientiousness. This is exemplified by: [FILL IN]\n3. You are ___ percentile in extraversion. This is exemplified by: [FILL IN]\n4. You are ___ percentile in agreeableness. This is exemplified by: [FILL IN]\n5. You are ___ percentile in neuroticism. This is exemplified by: [FILL IN]",
+    "lines": {
+        "line_0": "Your name is ____ and ",
+        "line_1": "1. You are ___ percentile in openness. This is exemplified by: [FILL IN]",
+        "line_2": "2. You are ___ percentile in conscientiousness. This is exemplified by: [FILL IN]",
+        "line_3": "3. You are ___ percentile in extraversion. This is exemplified by: [FILL IN]",
+        "line_4": "4. You are ___ percentile in agreeableness. This is exemplified by: [FILL IN]",
+        "line_5": "5. You are ___ percentile in neuroticism. This is exemplified by: [FILL IN]"
+    }
+}
