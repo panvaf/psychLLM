@@ -2,14 +2,13 @@ import sys
 
 # Prompt templates
 
-def build_prompt(user_data, prompt_type):
+def build_prompt(prompt_type, user_data):
     """
     Main function to build prompts dynamically based on the specified type.
     This function acts as a switch and calls the appropriate prompt builder.
     """
     PROMPT_FUNCTIONS = {
-        "direct": score_from_rubric,
-        "NEO": predict_NEO
+        "rubric": score_from_rubric
     }
 
     if prompt_type not in PROMPT_FUNCTIONS:
@@ -55,8 +54,9 @@ def score_from_rubric(user_data, wave=1):
 
     # Generate the formatted prompt
     prompt = f"""You are an assistant evaluating NEO scores based on user responses. Each response is rated from 1 to 5.
+   Filling in the blanks (as denoted by ____ or [FILL IN]) in the following template based on the provided information.
 
-Here are the responses grouped by personality traits and wave {wave}:
+Here are the responses grouped by personality traits:
 """
 
     for latent, responses in responses_by_latent.items():
