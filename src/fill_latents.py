@@ -115,7 +115,12 @@ def main():
         sys.exit(1)
 
     blank_latent_id = sys.argv[1]  # e.g., 'blank_latent_001'
-    prompt_type = sys.argv[2]  # 'direct', 'NEO'
+    prompt_type = sys.argv[2]  # 'rubric', 'psychologist'
+
+    if prompt_type == 'rubric':
+        offset = 12
+    else:
+        offset = 0
 
     # Determine the project root
     project_root = get_project_root()
@@ -201,7 +206,7 @@ def main():
             filled_text = filled_latent_data.get('full_text', '')
 
             # Extract NEO scores
-            extracted_scores = extract_neo_scores(filled_text, wave=1)
+            extracted_scores = extract_neo_scores(filled_text, offset, wave=1)
 
             # Ensure filled_latent structure exists
             if 'filled_latent' not in user_data:

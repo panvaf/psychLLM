@@ -60,7 +60,7 @@ def get_max_latent_key(filled_latents):
     return max_key
 
 
-def extract_neo_scores(llm_response, wave=1):
+def extract_neo_scores(llm_response, offset=0, wave=1):
     """
     Extracts NEO scores from the LLM response.
 
@@ -72,11 +72,11 @@ def extract_neo_scores(llm_response, wave=1):
         dict: Dictionary of extracted scores in the required format.
     """
     trait_mapping = {
-        "openness": "1. Your score in openness is",
-        "conscientiousness": "2. Your score in conscientiousness is",
-        "extraversion": "3. Your score in extraversion is",
-        "agreeableness": "4. Your score in agreeableness is",
-        "neuroticism": "5. Your score in neuroticism is"
+        "openness": "Your score in openness is",
+        "conscientiousness": "Your score in conscientiousness is",
+        "extraversion": "Your score in extraversion is",
+        "agreeableness": "Your score in agreeableness is",
+        "neuroticism": "Your score in neuroticism is"
     }
 
     scores = {}
@@ -85,6 +85,6 @@ def extract_neo_scores(llm_response, wave=1):
     for trait, phrase in trait_mapping.items():
         match = re.search(rf"{re.escape(phrase)}\s+(\d+)", llm_response)
         if match:
-            scores[trait] = int(match.group(1)) - 12 # Adjusting the score to range 0-4 instead of 1-5, 12 questions per trait
+            scores[trait] = int(match.group(1)) - offset # Adjusting to scale scores to e.g. 0-48
 
     return scores
