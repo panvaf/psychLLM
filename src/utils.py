@@ -58,3 +58,33 @@ def get_max_latent_key(filled_latents):
                 max_id = num_id
                 max_key = key
     return max_key
+
+
+def extract_neo_scores(llm_response, wave=1):
+    """
+    Extracts NEO scores from the LLM response.
+
+    Args:
+        llm_response (str): The LLM-generated text containing NEO scores.
+        wave (int): The wave number.
+
+    Returns:
+        dict: Dictionary of extracted scores in the required format.
+    """
+    trait_mapping = {
+        "openness": "1. Your score in openness is",
+        "conscientiousness": "2. Your score in conscientiousness is",
+        "extraversion": "3. Your score in extraversion is",
+        "agreeableness": "4. Your score in agreeableness is",
+        "neuroticism": "5. Your score in neuroticism is"
+    }
+
+    scores = {}
+
+    # Regex pattern to extract numbers after each trait phrase
+    for trait, phrase in trait_mapping.items():
+        match = re.search(rf"{re.escape(phrase)}\s+(\d+)", llm_response)
+        if match:
+            scores[trait] = int(match.group(1))
+
+    return scores

@@ -12,7 +12,8 @@ from utils import (
     load_user_data,
     save_user_data,
     load_json,
-    list_files
+    list_files,
+    extract_neo_scores
 )
 
 # Configure logging
@@ -196,12 +197,23 @@ def main():
         )
 
         if filled_latent_data:
-            # Store the filled latent in the user's data under 'filled_latent' > blank_latent_id
+
+            filled_text = filled_latent_data.get('full_text', '')
+
+            # Extract NEO scores
+            extracted_scores = extract_neo_scores(filled_text, wave=1)
+
+            # Ensure filled_latent structure exists
             if 'filled_latent' not in user_data:
                 user_data['filled_latent'] = {}
-            user_data['filled_latent'][blank_latent_id] = {
-                "full_text": filled_latent_data.get('full_text', '')
-                # Optionally, you can store 'tokens' and 'token_logprobs_transcript' if needed
+
+            if blank_latent_id not in user_data['filled_latent']:
+                user_data['filled_latent'][blank_latent_id] = {}
+
+            # Store extracted data under the wave
+            user_data['filled_latent'][blank_latent_id][f"wave_1"] = {  # Dynamically store under correct wave
+                "neo_scores": extracted_scores,  # Store extracted NEO scores
+                "full_response": filled_text  # Preserve full response from LLM
             }
 
             # Save the updated user data back to the user JSON file
