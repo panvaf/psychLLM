@@ -8,11 +8,12 @@ def build_prompt(prompt_type, user_data):
     This function acts as a switch and calls the appropriate prompt builder.
     """
     PROMPT_FUNCTIONS = {
-        "rubric": score_from_rubric
+        "rubric": score_from_rubric,
+        "psychologist": score_without_rubric
     }
 
     if prompt_type not in PROMPT_FUNCTIONS:
-        print(f"⚠️ Warning: Unrecognized prompt type '{prompt_type}'. Defaulting to 'simple_question'.")
+        print(f"⚠️ Warning: Unrecognized prompt type '{prompt_type}'. Exiting.")
         sys.exit(1)
 
 
@@ -54,7 +55,7 @@ def score_from_rubric(user_data, wave=1):
 
     # Generate the formatted prompt
     prompt = f"""You are an assistant evaluating NEO scores based on user responses. Each response is rated from 1 to 5.
-   Filling in the blanks (as denoted by ____ or [FILL IN]) in the following template based on the provided information.
+   Fill in the blanks (as denoted by ____ or [FILL IN]) in the following template based on the provided information.
 
 Here are the responses grouped by personality traits:
 """
@@ -67,3 +68,46 @@ Here are the responses grouped by personality traits:
 
     return prompt
 
+
+def score_without_rubric(user_data, wave=1):
+    """
+    Build a prompt for the LLM to rate the participant on NEO scores without a rubric.
+
+    Args:
+        user_data (dict): The user JSON data.
+        wave (int): The wave number to use (default: 1).
+    
+    Returns:
+        str: The generated prompt for the LLM.
+    """
+
+    responses = []
+    
+    # Gather responses for all 60 NEO questions
+    for question, details in user_data["questions"].items():
+        for answer in details["answers"]:
+            if answer["wave"] == wave:  # Filter by selected wave
+                responses.append(f"**{details['question']}** Response: {answer['response']}")
+
+    # Format the prompt
+    prompt = f"""
+    You are an AI psychologist assessing a participant based on their responses to 60 personality-related questions.
+    Each response is rated from 1 to 5. The participant's responses are provided below.
+    
+    Fill in the ____ blanks with an evaluation of their personality trait on a scale from 1 to 10 for each of the following traits:
+    - **openness**
+    - **conscientiousness**
+    - **extraversion**
+    - **agreeableness**
+    - **neuroticism**
+
+    Fill in the [FILL IN] blanks with informations that helped you make your decision for each of the traits.
+
+    **Participant's Responses:**
+
+    {chr(10).join(responses)}
+
+    Based on these responses, rate the participant from **1 to 10** for each of the five personality traits.
+    """
+
+    return prompt
