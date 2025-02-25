@@ -36,11 +36,11 @@ def save_json(data, file_path):
         logging.error(f"Error saving JSON to {file_path}: {e}")
 
 def load_user_data(user_id):
-    user_file = os.path.join(get_project_root(), 'data', 'users', 'NEO', f'user_{user_id}.json')
+    user_file = os.path.join(get_project_root(), 'data', 'users', 'NEO_test', f'user_{user_id}.json')
     return load_json(user_file)
 
 def save_user_data(user_id, data):
-    user_file = os.path.join(get_project_root(), 'data', 'users', 'NEO', f'user_{user_id}.json')
+    user_file = os.path.join(get_project_root(), 'data', 'users', 'NEO_test', f'user_{user_id}.json')
     save_json(data, user_file)
 
 def get_max_latent_key(filled_latents):
@@ -85,6 +85,6 @@ def extract_neo_scores(llm_response, wave=1):
     for trait, phrase in trait_mapping.items():
         match = re.search(rf"{re.escape(phrase)}\s+(\d+)", llm_response)
         if match:
-            scores[trait] = int(match.group(1))
+            scores[trait] = int(match.group(1)) - 12 # Adjusting the score to range 0-4 instead of 1-5, 12 questions per trait
 
     return scores

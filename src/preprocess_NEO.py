@@ -94,7 +94,7 @@ for cvdid, user_data in neo_df.groupby("CVDID"):
 
         if not responses.empty:
             user_json["neo_scores"][col] = [
-                {"wave": str(row["wave"]), "response": float(row[col])}
+                {"wave": row["wave"], "response": float(row[col])}
                 for _, row in responses.iterrows() if pd.notna(row[col])
             ]
     

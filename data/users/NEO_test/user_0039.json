@@ -1,0 +1,1952 @@
+{
+    "user_id": 39.0,
+    "transcript": null,
+    "questions": {
+        "NEO_1": {
+            "question": "I am not a worrier.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 1
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 1
+                },
+                {
+                    "wave": 12,
+                    "response": 1
+                },
+                {
+                    "wave": 14,
+                    "response": 1
+                },
+                {
+                    "wave": 16,
+                    "response": 1
+                }
+            ]
+        },
+        "NEO_2": {
+            "question": "I like to have a lot of people around me.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 2
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 2
+                }
+            ]
+        },
+        "NEO_3": {
+            "question": "I don't like to waste my time daydreaming.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 2
+                },
+                {
+                    "wave": 16,
+                    "response": 2
+                }
+            ]
+        },
+        "NEO_4": {
+            "question": "I try to be courteous to everyone I meet.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_5": {
+            "question": "I keep my belongings neat and clean.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_6": {
+            "question": "I often feel inferior to others",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 5
+                },
+                {
+                    "wave": 8,
+                    "response": 5
+                },
+                {
+                    "wave": 10,
+                    "response": 5
+                },
+                {
+                    "wave": 12,
+                    "response": 5
+                },
+                {
+                    "wave": 14,
+                    "response": 5
+                },
+                {
+                    "wave": 16,
+                    "response": 5
+                }
+            ]
+        },
+        "NEO_7": {
+            "question": "I laugh easily.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_8": {
+            "question": "Once I find the right way to do something, I stick to it.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_9": {
+            "question": "I often get into arguments with my family and coworkers.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 2
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 2
+                },
+                {
+                    "wave": 16,
+                    "response": 1
+                }
+            ]
+        },
+        "NEO_10": {
+            "question": "I'm pretty good about pacing myself so as to get things done on time.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 1
+                },
+                {
+                    "wave": 8,
+                    "response": 2
+                },
+                {
+                    "wave": 10,
+                    "response": 1
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 2
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_11": {
+            "question": "When I'm under a great deal of stress, sometimes I feel like I'm going to pieces.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 5
+                },
+                {
+                    "wave": 8,
+                    "response": 5
+                },
+                {
+                    "wave": 10,
+                    "response": 5
+                },
+                {
+                    "wave": 12,
+                    "response": 5
+                },
+                {
+                    "wave": 14,
+                    "response": 5
+                },
+                {
+                    "wave": 16,
+                    "response": 5
+                }
+            ]
+        },
+        "NEO_12": {
+            "question": "I don't consider myself especially \"lighthearted.\"",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_13": {
+            "question": "I am intrigued by the patterns I find in art and nature.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_14": {
+            "question": "Some people think I'm selfish and egotistical.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 2
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 2
+                }
+            ]
+        },
+        "NEO_15": {
+            "question": "I am not a very methodical person.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_16": {
+            "question": "I rarely feel lonely or blue.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 1
+                },
+                {
+                    "wave": 12,
+                    "response": 1
+                },
+                {
+                    "wave": 14,
+                    "response": 1
+                },
+                {
+                    "wave": 16,
+                    "response": 1
+                }
+            ]
+        },
+        "NEO_17": {
+            "question": "I really enjoy talking to people.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 2
+                },
+                {
+                    "wave": 10,
+                    "response": 2
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_18": {
+            "question": "I believe letting students hear controversial speakers can only confuse and mislead them.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 2
+                },
+                {
+                    "wave": 10,
+                    "response": 2
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 2
+                },
+                {
+                    "wave": 16,
+                    "response": 2
+                }
+            ]
+        },
+        "NEO_19": {
+            "question": "I would rather cooperate with others than compete with them.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 5
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_20": {
+            "question": "I try to perform all the tasks assigned to me conscientiously.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 5
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_21": {
+            "question": "I often feel tense and jittery.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 2
+                },
+                {
+                    "wave": 16,
+                    "response": 2
+                }
+            ]
+        },
+        "NEO_22": {
+            "question": "I like to be where the action is.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 2
+                },
+                {
+                    "wave": 10,
+                    "response": 2
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 1
+                },
+                {
+                    "wave": 16,
+                    "response": 1
+                }
+            ]
+        },
+        "NEO_23": {
+            "question": "Poetry has little or no effect on me.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 2
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_24": {
+            "question": "I tend to be cynical and skeptical of others' intentions.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_25": {
+            "question": "I have a clear set of goals and work toward them in an orderly fashion.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_26": {
+            "question": "Sometimes I feel completely worthless.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 5
+                },
+                {
+                    "wave": 8,
+                    "response": 5
+                },
+                {
+                    "wave": 10,
+                    "response": 5
+                },
+                {
+                    "wave": 12,
+                    "response": 5
+                },
+                {
+                    "wave": 14,
+                    "response": 5
+                },
+                {
+                    "wave": 16,
+                    "response": 5
+                }
+            ]
+        },
+        "NEO_27": {
+            "question": "I usually prefer to do things alone.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_28": {
+            "question": "I often try new and foreign foods.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 5
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 5
+                }
+            ]
+        },
+        "NEO_29": {
+            "question": "I believe that most people will take advantage of you if you let them.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_30": {
+            "question": "I waste a lot of time before settling down to work.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 5
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 5
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_31": {
+            "question": "I rarely feel fearful or anxious.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 1
+                },
+                {
+                    "wave": 12,
+                    "response": 1
+                },
+                {
+                    "wave": 14,
+                    "response": 1
+                },
+                {
+                    "wave": 16,
+                    "response": 1
+                }
+            ]
+        },
+        "NEO_32": {
+            "question": "I often feel as if I'm bursting with energy.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 1
+                },
+                {
+                    "wave": 12,
+                    "response": 1
+                },
+                {
+                    "wave": 14,
+                    "response": 1
+                },
+                {
+                    "wave": 16,
+                    "response": 2
+                }
+            ]
+        },
+        "NEO_33": {
+            "question": "I seldom notice the moods or feelings that different environments produce.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 2
+                },
+                {
+                    "wave": 12,
+                    "response": 1
+                },
+                {
+                    "wave": 14,
+                    "response": 1
+                },
+                {
+                    "wave": 16,
+                    "response": 1
+                }
+            ]
+        },
+        "NEO_34": {
+            "question": "Most people I know like me.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_35": {
+            "question": "I work hard to accomplish my goals.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_36": {
+            "question": "I often get angry at the way people treat me.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 2
+                }
+            ]
+        },
+        "NEO_37": {
+            "question": "I am a cheerful, highspirited person.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 2
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_38": {
+            "question": "I believe we should look to our religious authorities for decisions on moral issues.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 2
+                },
+                {
+                    "wave": 10,
+                    "response": 1
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 1
+                },
+                {
+                    "wave": 16,
+                    "response": 2
+                }
+            ]
+        },
+        "NEO_39": {
+            "question": "Some people think of me as cold and calculating.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 1
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 1
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 1
+                },
+                {
+                    "wave": 16,
+                    "response": 1
+                }
+            ]
+        },
+        "NEO_40": {
+            "question": "When I make a commitment, I can always be counted on to follow through.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_41": {
+            "question": "Too often, when things go wrong, I get discouraged and feel like giving up.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 5
+                }
+            ]
+        },
+        "NEO_42": {
+            "question": "I am not a cheerful optimist.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_43": {
+            "question": "Sometimes when I am reading poetry or looking at a work of art, I feel a chill or wave of excitement.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 2
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_44": {
+            "question": "I'm hardheaded and toughminded in my attitudes.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_45": {
+            "question": "Sometimes I'm not as dependable or reliable as I should be.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 5
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_46": {
+            "question": "I am seldom sad or depressed.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 1
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 1
+                },
+                {
+                    "wave": 12,
+                    "response": 1
+                },
+                {
+                    "wave": 14,
+                    "response": 1
+                },
+                {
+                    "wave": 16,
+                    "response": 2
+                }
+            ]
+        },
+        "NEO_47": {
+            "question": "My life is fastpaced.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 1
+                },
+                {
+                    "wave": 8,
+                    "response": 2
+                },
+                {
+                    "wave": 10,
+                    "response": 1
+                },
+                {
+                    "wave": 12,
+                    "response": 1
+                },
+                {
+                    "wave": 14,
+                    "response": 1
+                },
+                {
+                    "wave": 16,
+                    "response": 1
+                }
+            ]
+        },
+        "NEO_48": {
+            "question": "I have little interest in speculating on the nature of the universe or the human condition.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 2
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_49": {
+            "question": "I generally try to be thoughtful and considerate.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 5
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_50": {
+            "question": "I am a productive person who always gets the job done.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_51": {
+            "question": "I often feel helpless and want someone else to solve my problems.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 5
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 5
+                }
+            ]
+        },
+        "NEO_52": {
+            "question": "I am a very active person.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 2
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 1
+                }
+            ]
+        },
+        "NEO_53": {
+            "question": "I have a lot of intellectual curiosity.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_54": {
+            "question": "If I don't like people, I let them know it.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 1
+                },
+                {
+                    "wave": 10,
+                    "response": 2
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 2
+                },
+                {
+                    "wave": 16,
+                    "response": 1
+                }
+            ]
+        },
+        "NEO_55": {
+            "question": "I never seem to be able to get organized.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_56": {
+            "question": "At times I have been so ashamed I just wanted to hide.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 5
+                },
+                {
+                    "wave": 8,
+                    "response": 5
+                },
+                {
+                    "wave": 10,
+                    "response": 5
+                },
+                {
+                    "wave": 12,
+                    "response": 5
+                },
+                {
+                    "wave": 14,
+                    "response": 5
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        },
+        "NEO_57": {
+            "question": "I would rather go my own way than be a leader of others.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 4
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_58": {
+            "question": "I often enjoy playing with theories or abstract ideas.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 3
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_59": {
+            "question": "If necessary, I am willing to manipulate people to get what I want.",
+            "reverse_scored": true,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 2
+                },
+                {
+                    "wave": 8,
+                    "response": 3
+                },
+                {
+                    "wave": 10,
+                    "response": 3
+                },
+                {
+                    "wave": 12,
+                    "response": 2
+                },
+                {
+                    "wave": 14,
+                    "response": 3
+                },
+                {
+                    "wave": 16,
+                    "response": 3
+                }
+            ]
+        },
+        "NEO_60": {
+            "question": "I strive for excellence in everything I do.",
+            "reverse_scored": false,
+            "answers": [
+                {
+                    "wave": 1,
+                    "response": 4
+                },
+                {
+                    "wave": 8,
+                    "response": 4
+                },
+                {
+                    "wave": 10,
+                    "response": 4
+                },
+                {
+                    "wave": 12,
+                    "response": 3
+                },
+                {
+                    "wave": 14,
+                    "response": 4
+                },
+                {
+                    "wave": 16,
+                    "response": 4
+                }
+            ]
+        }
+    },
+    "neo_scores": {
+        "NEO_Openness": [
+            {
+                "wave": "1.0",
+                "response": 30.0
+            },
+            {
+                "wave": "8.0",
+                "response": 26.0
+            },
+            {
+                "wave": "10.0",
+                "response": 29.0
+            },
+            {
+                "wave": "12.0",
+                "response": 32.0
+            },
+            {
+                "wave": "14.0",
+                "response": 32.0
+            },
+            {
+                "wave": "16.0",
+                "response": 31.0
+            }
+        ],
+        "NEO_Conscientiousness": [
+            {
+                "wave": "1.0",
+                "response": 20.0
+            },
+            {
+                "wave": "8.0",
+                "response": 17.0
+            },
+            {
+                "wave": "10.0",
+                "response": 20.0
+            },
+            {
+                "wave": "12.0",
+                "response": 22.0
+            },
+            {
+                "wave": "14.0",
+                "response": 20.0
+            },
+            {
+                "wave": "16.0",
+                "response": 22.0
+            }
+        ],
+        "NEO_Extraversion": [
+            {
+                "wave": "1.0",
+                "response": 18.0
+            },
+            {
+                "wave": "8.0",
+                "response": 12.0
+            },
+            {
+                "wave": "10.0",
+                "response": 13.0
+            },
+            {
+                "wave": "12.0",
+                "response": 17.0
+            },
+            {
+                "wave": "14.0",
+                "response": 17.0
+            },
+            {
+                "wave": "16.0",
+                "response": 14.0
+            }
+        ],
+        "NEO_Agreeableness": [
+            {
+                "wave": "1.0",
+                "response": 34.0
+            },
+            {
+                "wave": "8.0",
+                "response": 30.0
+            },
+            {
+                "wave": "10.0",
+                "response": 31.0
+            },
+            {
+                "wave": "12.0",
+                "response": 29.0
+            },
+            {
+                "wave": "14.0",
+                "response": 30.0
+            },
+            {
+                "wave": "16.0",
+                "response": 32.0
+            }
+        ],
+        "NEO_Neuroticism": [
+            {
+                "wave": "1.0",
+                "response": 41.0
+            },
+            {
+                "wave": "8.0",
+                "response": 43.0
+            },
+            {
+                "wave": "10.0",
+                "response": 44.0
+            },
+            {
+                "wave": "12.0",
+                "response": 42.0
+            },
+            {
+                "wave": "14.0",
+                "response": 41.0
+            },
+            {
+                "wave": "16.0",
+                "response": 40.0
+            }
+        ]
+    },
+    "filled_latent": {
+        "blank_latent_NEO_noexp": {
+            "wave_1": {
+                "neo_scores": {
+                    "openness": 30,
+                    "conscientiousness": 20,
+                    "extraversion": 18,
+                    "agreeableness": 34,
+                    "neuroticism": 41
+                },
+                "full_response": "To fill in the template, we need to calculate the NEO score for each trait by summing the responses.\n\n**Neuroticism**: 5 + 5 + 4 + 4 + 5 + 5 + 4 + 5 + 3 + 4 + 4 + 5 = 53\n\n**Extraversion**: 4 + 3 + 3 + 2 + 2 + 3 + 2 + 3 + 2 + 2 + 1 + 3 = 30\n\n**Openness**: 3 + 4 + 4 + 3 + 3 + 3 + 3 + 2 + 4 + 4 + 5 + 4 = 42\n\n**Agreeableness**: 4 + 4 + 5 + 3 + 2 + 4 + 4 + 4 + 4 + 3 + 5 + 4 = 46\n\n**Conscientiousness**: 3 + 1 + 2 + 2 + 2 + 2 + 3 + 4 + 5 + 3 + 2 + 3 = 32\n\nSince the name is not provided, we will leave it blank.\n\nTemplate:\nYour name is [FILL IN] and \n1. Your score in openness is 42.\n2. Your score in conscientiousness is 32.\n3. Your score in extraversion is 30.\n4. Your score in agreeableness is 46.\n5. Your score in neuroticism is 53."
+            }
+        }
+    }
+}
