@@ -60,7 +60,7 @@ Template:
 {blank_latent_text}
 """
     # Debugging: Print API key right before the request
-    print(f"Using API Key for request: {os.getenv('TOGETHER_API_KEY')}")
+    print(f"Using API Key for request: {os.getenv('TOGETHER_API_KEY')[0:5]}")
 
     try:
         # Create a chat completion request
@@ -144,7 +144,7 @@ def main():
         sys.exit(1)
     
     # Define paths
-    users_dir = os.path.join(project_root, "data", "users", "NEO")
+    users_dir = os.path.join(project_root, "data", "users", "NEO_test")
     blank_latents_dir = os.path.join(project_root, "data", "blank_latents")
 
     # Load the specified blank latent
