@@ -1,0 +1,11 @@
+{
+    "full_text": "Your name is ____ and \n1. Your score in openness is ___.\n2. Your score in conscientiousness is ___.\n3. Your score in extraversion is ___.\n4. Your score in agreeableness is ___.\n5. Your score in neuroticism is ___.",
+    "lines": {
+        "line_0": "Your name is ____ and ",
+        "line_1": "1. Your score in openness is ___.",
+        "line_2": "2. Your score in conscientiousness is ___.",
+        "line_3": "3. Your score in extraversion is ___.",
+        "line_4": "4. Your score in agreeableness is ___.",
+        "line_5": "5. Your score in neuroticism is ___."
+    }
+}

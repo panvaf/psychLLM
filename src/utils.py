@@ -36,11 +36,11 @@ def save_json(data, file_path):
         logging.error(f"Error saving JSON to {file_path}: {e}")
 
 def load_user_data(user_id):
-    user_file = os.path.join(get_project_root(), 'data', 'users', f'user_{user_id}.json')
+    user_file = os.path.join(get_project_root(), 'data', 'users', 'NEO', f'user_{user_id}.json')
     return load_json(user_file)
 
 def save_user_data(user_id, data):
-    user_file = os.path.join(get_project_root(), 'data', 'users', f'user_{user_id}.json')
+    user_file = os.path.join(get_project_root(), 'data', 'users', 'NEO', f'user_{user_id}.json')
     save_json(data, user_file)
 
 def get_max_latent_key(filled_latents):

@@ -4,6 +4,7 @@ import os
 import sys
 import json
 import logging
+from prompt import build_prompt
 from together import Together  # Ensure you have the Together API client installed and configured
 from utils import (
     get_project_root,
@@ -107,12 +108,13 @@ def main():
     API_KEY = os.getenv("TOGETHER_API_KEY")
 
     # Check for command-line argument
-    if len(sys.argv) != 2:
-        logging.error("Usage: python fill_latents.py <blank_latent_id>")
-        logging.error("Example: python fill_latents.py blank_latent_001")
+    if len(sys.argv) != 3:
+        logging.error("Usage: python fill_latents.py <blank_latent_id> <prompt_type>")
+        logging.error("Example: python fill_latents.py blank_latent_001 baseline")
         sys.exit(1)
 
     blank_latent_id = sys.argv[1]  # e.g., 'blank_latent_001'
+    prompt_type = sys.argv[2]  # 'direct', 'NEO'
 
     # Determine the project root
     project_root = get_project_root()
@@ -141,7 +143,7 @@ def main():
         sys.exit(1)
     
     # Define paths
-    users_dir = os.path.join(project_root, "data", "users")
+    users_dir = os.path.join(project_root, "data", "users", "NEO")
     blank_latents_dir = os.path.join(project_root, "data", "blank_latents")
 
     # Load the specified blank latent
@@ -182,17 +184,12 @@ def main():
             logging.info(f"Filled latent for {blank_latent_id} already exists for {user_id_full}. Skipping.")
             continue
 
-        # Load and aggregate all transcripts for the current user
-        transcripts = user_data.get('transcripts', [])
-        if not transcripts:
-            logging.warning(f"No transcripts found for user {user_id_full}. Skipping user.")
-            continue
-
-        total_transcript = "\n".join(transcripts)
-
+        # Build the prompt according to the prompt type
+        prompt_text = build_prompt(prompt_type, user_data)
+        
         # Call `fill_latent` to generate and store the filled latent
         filled_latent_data = fill_latent(
-            input_text=total_transcript,
+            input_text=prompt_text,
             blank_latent_text=blank_latent_text,
             user_id=user_id_full,
             client=client
@@ -212,6 +209,8 @@ def main():
             logging.info(f"Saved filled latent for User: {user_id_full}, Latent: {blank_latent_id} to {user_json_path}")
         else:
             logging.warning(f"No filled latent generated for User: {user_id_full}.")
+
+        #break # Remove this line to process all users
 
 if __name__ == "__main__":
     main()

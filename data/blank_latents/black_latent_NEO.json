@@ -1,0 +1,11 @@
+{
+    "full_text": "Your name is ____ and \n1. Your score in openness is ___. This is exemplified by: [FILL IN]\n2. Your score in conscientiousness is ___. This is exemplified by: [FILL IN]\n3. Your score in extraversion is ___. This is exemplified by: [FILL IN]\n4. Your score in agreeableness is ___. This is exemplified by: [FILL IN]\n5. Your score in neuroticism is ___. This is exemplified by: [FILL IN]",
+    "lines": {
+        "line_0": "Your name is ____ and ",
+        "line_1": "1. Your score in openness is ___. This is exemplified by: [FILL IN]",
+        "line_2": "2. Your score in conscientiousness is ___. This is exemplified by: [FILL IN]",
+        "line_3": "3. Your score in extraversion is ___. This is exemplified by: [FILL IN]",
+        "line_4": "4. Your score in agreeableness is ___. This is exemplified by: [FILL IN]",
+        "line_5": "5. Your score in neuroticism is ___. This is exemplified by: [FILL IN]"
+    }
+}
