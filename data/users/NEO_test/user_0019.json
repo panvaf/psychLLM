@@ -1947,6 +1947,18 @@
                 },
                 "full_response": "To fill in the template, we need to calculate the NEO score for each trait by summing the responses.\n\n**Neuroticism**: 3 + 3 + 3 + 3 + 4 + 2 + 3 + 4 + 2 + 3 + 2 + 3 = 37\n\n**Extraversion**: 5 + 3 + 3 + 3 + 2 + 4 + 3 + 2 + 4 + 3 + 2 + 3 = 37\n\n**Openness**: 5 + 4 + 4 + 4 + 5 + 4 + 4 + 3 + 5 + 5 + 5 + 5 = 53\n\n**Agreeableness**: 4 + 3 + 5 + 3 + 4 + 3 + 3 + 4 + 4 + 3 + 3 + 4 = 43\n\n**Conscientiousness**: 3 + 4 + 3 + 2 + 2 + 2 + 3 + 3 + 4 + 4 + 3 + 3 = 36\n\nSince the name is not provided, we will leave it blank.\n\nTemplate:\nYour name is [FILL IN] and \n1. Your score in openness is 53.\n2. Your score in conscientiousness is 36.\n3. Your score in extraversion is 37.\n4. Your score in agreeableness is 43.\n5. Your score in neuroticism is 37."
             }
+        },
+        "blank_latent_NEO": {
+            "wave_1": {
+                "neo_scores": {
+                    "openness": 7,
+                    "conscientiousness": 6,
+                    "extraversion": 6,
+                    "agreeableness": 7,
+                    "neuroticism": 5
+                },
+                "full_response": "Your name is Participant and \n\n1. Your score in openness is 7. This is exemplified by: The participant's high ratings in questions related to intellectual curiosity (Response: 5), enjoying playing with theories or abstract ideas (Response: 4), and appreciating patterns in art and nature (Response: 5). However, they also showed some disinterest in speculating on the nature of the universe or the human condition (Response: 2) and had a low rating for being affected by poetry (Response: 2).\n\n2. Your score in conscientiousness is 6. This is exemplified by: The participant's moderate ratings in questions related to being organized (Response: 3), working hard to accomplish goals (Response: 3), and trying to perform tasks conscientiously (Response: 4). However, they also showed some inconsistency in their responses, such as wasting time before settling down to work (Response: 4) and not being very methodical (Response: 3).\n\n3. Your score in extraversion is 6. This is exemplified by: The participant's moderate ratings in questions related to enjoying social interactions (Response: 4), being cheerful and high-spirited (Response: 3), and preferring to be around people (Response: 4). However, they also showed some preference for being alone (Response: 3) and not being very outgoing (Response: 2).\n\n4. Your score in agreeableness is 7. This is exemplified by: The participant's high ratings in questions related to being courteous (Response: 4), cooperative (Response: 5), and thoughtful (Response: 4). However, they also showed some assertiveness in their responses, such as being willing to express their opinions (Response: 3) and not being afraid to let people know if they don't like them (Response: 3).\n\n5. Your score in neuroticism is 5. This is exemplified by: The participant's moderate ratings in questions related to feeling anxious or fearful (Response: 3), getting discouraged (Response: 3), and feeling helpless (Response: 2). However, they also showed some resilience in their responses, such as not being a worrier (Response: 3) and rarely feeling sad or depressed (Response: 2)."
+            }
         }
     }
 }

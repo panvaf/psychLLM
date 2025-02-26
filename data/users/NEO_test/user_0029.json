@@ -1947,6 +1947,18 @@
                 },
                 "full_response": "To fill in the template, we need to calculate the NEO score for each trait by summing the responses.\n\n**Neuroticism**: 4 + 4 + 4 + 5 + 5 + 5 + 4 + 5 + 1 + 5 + 2 + 3 = 47\n\n**Extraversion**: 2 + 4 + 3 + 4 + 2 + 4 + 2 + 2 + 2 + 1 + 2 + 1 = 29\n\n**Openness**: 5 + 1 + 4 + 5 + 5 + 4 + 3 + 2 + 5 + 5 + 1 + 4 = 44\n\n**Agreeableness**: 5 + 5 + 5 + 4 + 4 + 4 + 5 + 5 + 5 + 4 + 5 + 5 = 56\n\n**Conscientiousness**: 4 + 4 + 3 + 1 + 4 + 2 + 4 + 2 + 5 + 3 + 2 + 3 = 37\n\nSince the name is not provided, we will leave it blank.\n\nTemplate:\nYour name is [FILL IN] and \n1. Your score in openness is 44.\n2. Your score in conscientiousness is 37.\n3. Your score in extraversion is 29.\n4. Your score in agreeableness is 56.\n5. Your score in neuroticism is 47."
             }
+        },
+        "blank_latent_NEO": {
+            "wave_1": {
+                "neo_scores": {
+                    "openness": 7,
+                    "conscientiousness": 6,
+                    "extraversion": 3,
+                    "agreeableness": 9,
+                    "neuroticism": 8
+                },
+                "full_response": "Your name is Participant and \n\n1. Your score in openness is 7. This is exemplified by: The participant's responses show a mix of openness and closedness. On one hand, they have a lot of intellectual curiosity (Response: 5), are intrigued by patterns in art and nature (Response: 5), and enjoy playing with theories or abstract ideas (Response: 4). On the other hand, they don't like to waste time daydreaming (Response: 3), have little interest in speculating on the nature of the universe or the human condition (Response: 1), and don't consider themselves especially \"lighthearted\" (Response: 2).\n\n2. Your score in conscientiousness is 6. This is exemplified by: The participant's responses show a moderate level of conscientiousness. They try to perform all tasks assigned to them conscientiously (Response: 5), keep their belongings neat and clean (Response: 4), and work hard to accomplish their goals (Response: 4). However, they also waste a lot of time before settling down to work (Response: 5), are not very methodical (Response: 3), and sometimes are not as dependable or reliable as they should be (Response: 4).\n\n3. Your score in extraversion is 3. This is exemplified by: The participant's responses show a low level of extraversion. They don't like to have a lot of people around them (Response: 2), prefer to do things alone (Response: 4), and are not very active (Response: 1). They also don't enjoy talking to people as much as others might (Response: 4), and don't consider themselves a cheerful, high-spirited person (Response: 3).\n\n4. Your score in agreeableness is 9. This is exemplified by: The participant's responses show a high level of agreeableness. They try to be courteous to everyone they meet (Response: 5), would rather cooperate with others than compete with them (Response: 5), and generally try to be thoughtful and considerate (Response: 5). They also don't tend to get angry at the way people treat them (Response: 1), and don't believe in manipulating people to get what they want (Response: 1).\n\n5. Your score in neuroticism is 8. This is exemplified by: The participant's responses show a high level of neuroticism. They often feel inferior to others (Response: 5), sometimes feel completely worthless (Response: 5), and too often get discouraged and feel like giving up when things go wrong (Response: 5). They also often feel tense and jittery (Response: 4), and sometimes feel helpless and want someone else to solve their problems (Response: 2)."
+            }
         }
     }
 }
