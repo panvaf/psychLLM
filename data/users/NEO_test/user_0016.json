@@ -1936,6 +1936,18 @@
         ]
     },
     "filled_latent": {
+        "blank_latent_NEO": {
+            "wave_1": {
+                "neo_scores": {
+                    "openness": 7,
+                    "conscientiousness": 9,
+                    "extraversion": 5,
+                    "agreeableness": 8,
+                    "neuroticism": 2
+                },
+                "full_response": "Your name is Participant and \n\n1. Your score in openness is 7. This is exemplified by: The participant's responses show a moderate level of openness, as they report enjoying playing with theories or abstract ideas (Response: 3), being intrigued by patterns in art and nature (Response: 4), and having a lot of intellectual curiosity (Response: 4). However, they also report not being especially interested in speculating on the nature of the universe or the human condition (Response: 2) and not being particularly affected by poetry (Response: 3).\n\n2. Your score in conscientiousness is 9. This is exemplified by: The participant's responses show a high level of conscientiousness, as they report striving for excellence in everything they do (Response: 5), working hard to accomplish their goals (Response: 5), and being a productive person who always gets the job done (Response: 5). They also report being dependable and reliable (Response: 5) and trying to perform all tasks assigned to them conscientiously (Response: 5).\n\n3. Your score in extraversion is 5. This is exemplified by: The participant's responses show a moderate level of extraversion, as they report enjoying talking to people (Response: 3) and being a cheerful, high-spirited person (Response: 4). However, they also report not being a very outgoing person (Response: 3) and sometimes preferring to do things alone (Response: 3).\n\n4. Your score in agreeableness is 8. This is exemplified by: The participant's responses show a high level of agreeableness, as they report trying to be courteous to everyone they meet (Response: 4), being a cooperative person (Response: 4), and generally trying to be thoughtful and considerate (Response: 5). They also report not being a very argumentative person (Response: 1) and not being willing to manipulate people to get what they want (Response: 2).\n\n5. Your score in neuroticism is 2. This is exemplified by: The participant's responses show a low level of neuroticism, as they report rarely feeling fearful or anxious (Response: 5), not being a worrier (Response: 4), and seldom feeling sad or depressed (Response: 4). They also report not often feeling tense and jittery (Response: 1) and not often feeling helpless or wanting someone else to solve their problems (Response: 1)."
+            }
+        },
         "blank_latent_NEO_noexp": {
             "wave_1": {
                 "neo_scores": {
@@ -1946,18 +1958,6 @@
                     "neuroticism": 4
                 },
                 "full_response": "To fill in the template, we need to calculate the NEO score for each trait by summing the responses.\n\n**Neuroticism**: 2 + 2 + 2 + 1 + 2 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 16\n**Extraversion**: 4 + 4 + 4 + 5 + 3 + 3 + 3 + 3 + 3 + 3 + 2 + 4 = 43\n**Openness**: 4 + 3 + 3 + 4 + 4 + 3 + 3 + 2 + 4 + 5 + 3 + 4 = 44\n**Agreeableness**: 5 + 5 + 4 + 3 + 3 + 3 + 4 + 4 + 4 + 5 + 5 + 5 = 50\n**Conscientiousness**: 5 + 4 + 2 + 5 + 5 + 4 + 5 + 5 + 5 + 5 + 4 + 5 = 54\n\nSince the name is not provided, we will leave it blank.\n\nTemplate:\nYour name is [FILL IN] and \n1. Your score in openness is 44.\n2. Your score in conscientiousness is 54.\n3. Your score in extraversion is 43.\n4. Your score in agreeableness is 50.\n5. Your score in neuroticism is 16."
-            }
-        },
-        "blank_latent_NEO": {
-            "wave_1": {
-                "neo_scores": {
-                    "openness": 6,
-                    "conscientiousness": 9,
-                    "extraversion": 5,
-                    "agreeableness": 8,
-                    "neuroticism": 2
-                },
-                "full_response": "Your name is Participant and \n\n1. Your score in openness is 6. This is exemplified by: The participant's responses show a moderate level of openness, as they report enjoying art and nature (Response: 4), having intellectual curiosity (Response: 4), and sometimes enjoying playing with theories or abstract ideas (Response: 3). However, they also report not being especially interested in speculating on the nature of the universe or the human condition (Response: 2) and not being particularly moved by poetry (Response: 3).\n\n2. Your score in conscientiousness is 9. This is exemplified by: The participant's responses show a high level of conscientiousness, as they report being productive and always getting the job done (Response: 5), striving for excellence in everything they do (Response: 5), and trying to perform all tasks assigned to them conscientiously (Response: 5). They also report being organized and neat (Response: 5) and having a clear set of goals (Response: 4).\n\n3. Your score in extraversion is 5. This is exemplified by: The participant's responses show a moderate level of extraversion, as they report enjoying talking to people (Response: 3), being a cheerful and high-spirited person (Response: 4), and being active (Response: 4). However, they also report not being especially outgoing or sociable, preferring to do things alone (Response: 3) and not being particularly interested in being around a lot of people (Response: 3).\n\n4. Your score in agreeableness is 8. This is exemplified by: The participant's responses show a high level of agreeableness, as they report being courteous to everyone they meet (Response: 4), trying to be thoughtful and considerate (Response: 5), and preferring to cooperate with others rather than compete with them (Response: 4). They also report not being especially argumentative or confrontational, with low scores on items related to conflict and competition.\n\n5. Your score in neuroticism is 2. This is exemplified by: The participant's responses show a low level of neuroticism, as they report rarely feeling fearful or anxious (Response: 5), not being especially prone to feelings of inferiority or shame (Response: 1), and not being particularly sensitive to stress (Response: 2). They also report being a cheerful and high-spirited person (Response: 4) and not being especially prone to feelings of sadness or depression (Response: 4)."
             }
         }
     }

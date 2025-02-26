@@ -1936,6 +1936,18 @@
         ]
     },
     "filled_latent": {
+        "blank_latent_NEO": {
+            "wave_1": {
+                "neo_scores": {
+                    "openness": 7,
+                    "conscientiousness": 8,
+                    "extraversion": 7,
+                    "agreeableness": 7,
+                    "neuroticism": 3
+                },
+                "full_response": "Your name is Participant and \n\n1. Your score in openness is 7. This is exemplified by: The participant's responses indicating a moderate to high level of intellectual curiosity, such as \"I am intrigued by the patterns I find in art and nature\" (Response: 4), \"I often enjoy playing with theories or abstract ideas\" (Response: 4), and \"I have a lot of intellectual curiosity\" (Response: 4). However, some responses also suggest a more neutral or moderate stance, such as \"I don't like to waste my time daydreaming\" (Response: 3) and \"Poetry has little or no effect on me\" (Response: 3).\n\n2. Your score in conscientiousness is 8. This is exemplified by: The participant's responses indicating a high level of organization, responsibility, and goal-oriented behavior, such as \"I keep my belongings neat and clean\" (Response: 4), \"I try to perform all the tasks assigned to me conscientiously\" (Response: 4), \"I have a clear set of goals and work toward them in an orderly fashion\" (Response: 4), and \"I strive for excellence in everything I do\" (Response: 4). However, some responses also suggest a more neutral or moderate stance, such as \"I am not a very methodical person\" (Response: 3) and \"I waste a lot of time before settling down to work\" (Response: 3).\n\n3. Your score in extraversion is 7. This is exemplified by: The participant's responses indicating a moderate to high level of sociability and energy, such as \"I like to have a lot of people around me\" (Response: 4), \"I laugh easily\" (Response: 4), \"I really enjoy talking to people\" (Response: 3), and \"I often feel as if I'm bursting with energy\" (Response: 4). However, some responses also suggest a more neutral or moderate stance, such as \"I usually prefer to do things alone\" (Response: 3) and \"I would rather go my own way than be a leader of others\" (Response: 3).\n\n4. Your score in agreeableness is 7. This is exemplified by: The participant's responses indicating a moderate to high level of cooperation and empathy, such as \"I try to be courteous to everyone I meet\" (Response: 4), \"I would rather cooperate with others than compete with them\" (Response: 3), and \"I generally try to be thoughtful and considerate\" (Response: 4). However, some responses also suggest a more neutral or moderate stance, such as \"I tend to be cynical and skeptical of others' intentions\" (Response: 3) and \"If I don't like people, I let them know it\" (Response: 3).\n\n5. Your score in neuroticism is 3. This is exemplified by: The participant's responses indicating a low level of anxiety, anger, and vulnerability, such as \"I am not a worrier\" (Response: 4), \"I rarely feel fearful or anxious\" (Response: 4), and \"I seldom feel sad or depressed\" (Response: 2). However, some responses also suggest a more neutral or moderate stance, such as \"When I'm under a great deal of stress, sometimes I feel like I'm going to pieces\" (Response: 2) and \"Sometimes I feel completely worthless\" (Response: 2)."
+            }
+        },
         "blank_latent_NEO_noexp": {
             "wave_1": {
                 "neo_scores": {
@@ -1946,18 +1958,6 @@
                     "neuroticism": 16
                 },
                 "full_response": "To fill in the template, we need to calculate the NEO score for each trait by summing the responses.\n\n**Neuroticism**: 2 + 2 + 4 + 2 + 4 + 1 + 2 + 2 + 2 + 2 + 2 + 3 = 28\n**Extraversion**: 4 + 4 + 4 + 4 + 4 + 3 + 3 + 3 + 4 + 4 + 3 + 3 = 45\n**Openness**: 4 + 3 + 4 + 3 + 4 + 4 + 3 + 2 + 3 + 3 + 3 + 4 = 42\n**Agreeableness**: 5 + 4 + 3 + 3 + 2 + 3 + 3 + 4 + 4 + 4 + 4 + 4 = 45\n**Conscientiousness**: 4 + 4 + 3 + 3 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 = 48\n\nSince the name is not provided, we will leave it blank.\n\nTemplate:\nYour name is [FILL IN] and \n1. Your score in openness is 42.\n2. Your score in conscientiousness is 48.\n3. Your score in extraversion is 45.\n4. Your score in agreeableness is 45.\n5. Your score in neuroticism is 28."
-            }
-        },
-        "blank_latent_NEO": {
-            "wave_1": {
-                "neo_scores": {
-                    "openness": 7,
-                    "conscientiousness": 8,
-                    "extraversion": 7,
-                    "agreeableness": 7,
-                    "neuroticism": 3
-                },
-                "full_response": "Your name is Participant and \n\n1. Your score in openness is 7. This is exemplified by: The participant's responses indicating a moderate level of intellectual curiosity, such as enjoying playing with theories or abstract ideas (Response: 4) and being intrigued by patterns in art and nature (Response: 4). However, they also showed some disinterest in speculating on the nature of the universe or the human condition (Response: 3) and a neutral response to the effect of poetry (Response: 3).\n\n2. Your score in conscientiousness is 8. This is exemplified by: The participant's responses indicating a high level of organization and responsibility, such as keeping their belongings neat and clean (Response: 4), trying to perform all tasks assigned to them conscientiously (Response: 4), and working hard to accomplish their goals (Response: 4). However, they also showed some tendency to waste time before settling down to work (Response: 3).\n\n3. Your score in extraversion is 7. This is exemplified by: The participant's responses indicating a moderate level of sociability and energy, such as enjoying talking to people (Response: 3), liking to be where the action is (Response: 4), and often feeling as if they're bursting with energy (Response: 4). However, they also showed some preference for doing things alone (Response: 3) and a neutral response to being around a lot of people (Response: 4).\n\n4. Your score in agreeableness is 7. This is exemplified by: The participant's responses indicating a moderate level of cooperation and empathy, such as trying to be courteous to everyone they meet (Response: 4), generally trying to be thoughtful and considerate (Response: 4), and preferring to cooperate with others rather than compete with them (Response: 3). However, they also showed some tendency to be cynical and skeptical of others' intentions (Response: 3) and a willingness to manipulate people if necessary (Response: 2).\n\n5. Your score in neuroticism is 3. This is exemplified by: The participant's responses indicating a low level of anxiety and emotional instability, such as rarely feeling fearful or anxious (Response: 4), seldom feeling sad or depressed (Response: 2), and not often feeling tense and jittery (Response: 2). However, they also showed some tendency to feel inferior to others (Response: 1) and occasionally feeling helpless or wanting someone else to solve their problems (Response: 2)."
             }
         }
     }

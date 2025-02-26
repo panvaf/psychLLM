@@ -1936,6 +1936,18 @@
         ]
     },
     "filled_latent": {
+        "blank_latent_NEO": {
+            "wave_1": {
+                "neo_scores": {
+                    "openness": 6,
+                    "conscientiousness": 8,
+                    "extraversion": 5,
+                    "agreeableness": 9,
+                    "neuroticism": 2
+                },
+                "full_response": "Your name is Participant and \n\n1. Your score in openness is 6. This is exemplified by: The participant's responses show a mix of openness and close-mindedness. They enjoy playing with theories or abstract ideas (Response: 3) and are intrigued by patterns in art and nature (Response: 5), indicating a level of intellectual curiosity (Response: 4). However, they also tend to stick to what they know (Response: 5) and don't consider themselves especially \"lighthearted\" (Response: 5), suggesting a more practical and serious approach to life. Additionally, they have little interest in speculating on the nature of the universe or the human condition (Response: 1) and don't often try new and foreign foods (Response: 1), which may indicate a more traditional or conservative outlook.\n\n2. Your score in conscientiousness is 8. This is exemplified by: The participant's responses show a strong sense of responsibility and organization. They try to perform all tasks assigned to them conscientiously (Response: 5), work hard to accomplish their goals (Response: 5), and are productive and reliable (Response: 5). They also tend to be thoughtful and considerate (Response: 5) and strive for excellence in everything they do (Response: 4). However, they may struggle with procrastination (Response: 1) and don't always consider themselves methodical (Response: 3), which may indicate some room for improvement in their organizational skills.\n\n3. Your score in extraversion is 5. This is exemplified by: The participant's responses show a mix of introverted and extroverted tendencies. They enjoy talking to people (Response: 5) and laugh easily (Response: 5), indicating a level of sociability and enthusiasm. However, they also tend to prefer doing things alone (Response: 3) and don't always feel the need to be around others (Response: 3). Additionally, they may not be as outgoing or assertive as others, as they tend to cooperate with others rather than compete with them (Response: 5) and don't consider themselves especially \"lighthearted\" (Response: 5).\n\n4. Your score in agreeableness is 9. This is exemplified by: The participant's responses show a strong sense of cooperation and empathy. They try to be courteous to everyone they meet (Response: 5), are willing to cooperate with others rather than compete with them (Response: 5), and tend to be thoughtful and considerate (Response: 5). They also believe in treating others with respect and kindness, as they generally try to be cheerful and optimistic (Response: 4) and don't often get angry at the way people treat them (Response: 1). Additionally, they tend to avoid conflict and competition, as they don't often get into arguments with others (Response: 1) and prefer to work together rather than compete (Response: 5).\n\n5. Your score in neuroticism is 2. This is exemplified by: The participant's responses show a low level of anxiety and emotional instability. They rarely feel fearful or anxious (Response: 3), are not often sad or depressed (Response: 5), and tend to be cheerful and optimistic (Response: 4). They also don't often feel tense or jittery (Response: 1) and are not prone to feelings of worthlessness or shame (Response: 1). Additionally, they tend to be resilient and able to cope with stress, as they don't often feel helpless or overwhelmed (Response: 1) and are able to bounce back from setbacks (Response: 5)."
+            }
+        },
         "blank_latent_NEO_noexp": {
             "wave_1": {
                 "neo_scores": {
@@ -1946,18 +1958,6 @@
                     "neuroticism": 6
                 },
                 "full_response": "To fill in the template, we need to calculate the NEO score for each trait by summing the responses.\n\n**Neuroticism**: 5 + 1 + 2 + 3 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 18\n**Extraversion**: 5 + 1 + 4 + 5 + 3 + 5 + 3 + 5 + 3 + 2 + 3 + 3 = 42\n**Openness**: 5 + 5 + 3 + 5 + 4 + 3 + 3 + 1 + 5 + 3 + 1 + 4 = 42\n**Agreeableness**: 5 + 5 + 5 + 3 + 2 + 3 + 3 + 5 + 5 + 5 + 5 + 5 = 51\n**Conscientiousness**: 3 + 5 + 3 + 5 + 3 + 4 + 5 + 4 + 5 + 5 + 5 + 5 = 52\n\nSince the name is not provided, we will leave it blank.\n\nTemplate:\nYour name is [FILL IN] and \n1. Your score in openness is 42.\n2. Your score in conscientiousness is 52.\n3. Your score in extraversion is 42.\n4. Your score in agreeableness is 51.\n5. Your score in neuroticism is 18."
-            }
-        },
-        "blank_latent_NEO": {
-            "wave_1": {
-                "neo_scores": {
-                    "openness": 6,
-                    "conscientiousness": 8,
-                    "extraversion": 5,
-                    "agreeableness": 9,
-                    "neuroticism": 2
-                },
-                "full_response": "Your name is Participant and \n\n1. Your score in openness is 6. This is exemplified by: The participant's responses show a mix of openness and close-mindedness. They enjoy playing with theories or abstract ideas (Response: 3) and are intrigued by patterns in art and nature (Response: 5), indicating a level of intellectual curiosity (Response: 4). However, they also tend to be skeptical of others' intentions (Response: 3) and don't consider themselves especially \"lighthearted\" (Response: 5), which may limit their openness to new experiences.\n\n2. Your score in conscientiousness is 8. This is exemplified by: The participant's responses demonstrate a high level of conscientiousness, as they strive for excellence in everything they do (Response: 4), work hard to accomplish their goals (Response: 5), and try to perform all tasks assigned to them conscientiously (Response: 5). They also tend to be organized and productive (Response: 5), although they may occasionally struggle with procrastination (Response: 1).\n\n3. Your score in extraversion is 5. This is exemplified by: The participant's responses show a mix of extraverted and introverted tendencies. They enjoy talking to people (Response: 5) and laugh easily (Response: 5), indicating a level of sociability. However, they also tend to prefer doing things alone (Response: 3) and don't always feel the need to be around others (Response: 3).\n\n4. Your score in agreeableness is 9. This is exemplified by: The participant's responses demonstrate a high level of agreeableness, as they try to be courteous to everyone they meet (Response: 5), generally try to be thoughtful and considerate (Response: 5), and would rather cooperate with others than compete with them (Response: 5). They also tend to be empathetic and understanding, as evidenced by their ability to notice the moods or feelings that different environments produce (Response: 2).\n\n5. Your score in neuroticism is 2. This is exemplified by: The participant's responses show a low level of neuroticism, as they rarely feel fearful or anxious (Response: 3), seldom feel sad or depressed (Response: 5), and don't often get angry at the way people treat them (Response: 1). They also tend to be resilient and able to cope with stress, as evidenced by their ability to handle stress without feeling like they're going to pieces (Response: 1)."
             }
         }
     }
