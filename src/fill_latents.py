@@ -2,6 +2,7 @@
 
 import os
 import sys
+import time
 import json
 import logging
 from prompt import build_prompt
@@ -60,12 +61,12 @@ Template:
 {blank_latent_text}
 """
     # Debugging: Print API key right before the request
-    print(f"Using API Key for request: {os.getenv('TOGETHER_API_KEY')[0:5]}")
+    print(f"Using API Key for request: {os.getenv('TOGETHER_API_KEY')[0:5]}...")
 
     try:
         # Create a chat completion request
         response = client.chat.completions.create(
-            model="meta-llama/Meta-Llama-3-8B-Instruct-Lite", ## Use             model="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+            model="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo", ## Use             model="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
             messages=[
                 {"role": "user", "content": prompt}
             ],
@@ -167,16 +168,24 @@ def main():
         logging.error("Blank latent 'full_text' is empty. Exiting.")
         sys.exit(1)
 
+    # Start timing
+    start_time = time.time()
+
     # Get list of user JSON files
     user_files = list_files(users_dir, extension=".json")
     if not user_files:
         logging.error("No user JSON files found in 'data/users/'. Exiting.")
         sys.exit(1)
 
-    for user_file in user_files:
+    total_users = len(user_files)  # Total number of users
+    logging.info(f"Processing {total_users} users...")
+
+    for index, user_file in enumerate(user_files, start=1):
         user_id_full = os.path.splitext(user_file)[0]  # e.g., 'user_001'
         user_id = user_id_full.split('_')[1]  # Extract '001' from 'user_001'
         user_json_path = os.path.join(users_dir, user_file)
+
+        logging.info(f"Processing user {index}/{total_users}: {user_id_full}")
 
         # Load the user data
         user_data = load_user_data(user_id)
@@ -228,6 +237,11 @@ def main():
             logging.warning(f"No filled latent generated for User: {user_id_full}.")
 
         #break # Remove this line to process all users
+    
+    # End timing
+    end_time = time.time()
+    total_time = end_time - start_time
+    logging.info(f"✅ Processing complete! Total time: {total_time:.2f} seconds.")
 
 if __name__ == "__main__":
     main()

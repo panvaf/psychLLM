@@ -91,8 +91,9 @@ def score_without_rubric(user_data, wave=1):
 
     # Format the prompt
     prompt = f"""
-    You are an AI psychologist assessing a participant based on their responses to 60 personality-related questions.
-    Each response is rated from 1 to 5. The participant's responses are provided below.
+    You are an AI psychologist assessing a participant based on their answers to 60 personality-related questions.
+    Answers are scored from 1 to 5, depending on how much the participant agrees with the statement (strongly disagree, disagree, neutral, agree, strongly agree).
+    The participant's responses are provided below.
     
     Fill in the ____ blanks with an evaluation of their personality trait on a scale from 1 to 10 for each of the following traits:
     - **openness**
