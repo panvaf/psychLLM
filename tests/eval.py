@@ -8,13 +8,15 @@ import seaborn as sns
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
+# Whether to save figures
+SAVE_FIGS = True
 
 # Load data files
 # Get the directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Define directory containing user JSON files
-users_dir = os.path.abspath(os.path.join(script_dir, "..", "data", 'users', "NEO_test"))
+users_dir = os.path.abspath(os.path.join(script_dir, "..", "data", 'users', "NEO"))
 
 # Initialize lists to store extracted data
 traits = ["openness", "conscientiousness", "extraversion", "agreeableness", "neuroticism"]
@@ -57,7 +59,7 @@ for user_file in os.listdir(users_dir):
 # Function to plot scatterplots with regression line
 def plot_scatter(x, y, title, xlabel, ylabel, filename):
     plt.figure(figsize=(6, 6))
-    sns.regplot(x=x, y=y, scatter_kws={"s": 50}, line_kws={"color": "red"})
+    sns.regplot(x=x, y=y, scatter_kws={"s": 10, "alpha": 0.3}, line_kws={"color": "red"})  # 👈 Smaller & transparent
     
     # Fit a linear model and compute regression coefficient
     model = LinearRegression()
@@ -71,7 +73,10 @@ def plot_scatter(x, y, title, xlabel, ylabel, filename):
     plt.title(f"{title}\nR² = {r2_score:.2f}")
     
     # Save the figure
-    plt.savefig(filename)
+    if SAVE_FIGS:
+        plt.savefig(filename, dpi=300)  # High-resolution saving
+    else:
+        plt.show()  # Show plot instead of saving
     plt.close()
 
 # Generate scatterplots for each trait

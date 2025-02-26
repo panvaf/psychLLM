@@ -150,7 +150,7 @@ def main():
         sys.exit(1)
     
     # Define paths
-    users_dir = os.path.join(project_root, "data", "users", "NEO_test")
+    users_dir = os.path.join(project_root, "data", "users", "NEO")
     blank_latents_dir = os.path.join(project_root, "data", "blank_latents")
 
     # Load the specified blank latent
@@ -241,7 +241,9 @@ def main():
     # End timing
     end_time = time.time()
     total_time = end_time - start_time
-    logging.info(f"✅ Processing complete! Total time: {total_time:.2f} seconds.")
+    hours, rem = divmod(total_time, 3600)
+    minutes, seconds = divmod(rem, 60)
+    logging.info(f"✅ Processing complete! Total execution time: {int(hours)}h {int(minutes)}m {seconds:.2f}s")
 
 if __name__ == "__main__":
     main()
